@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d3350a52ca2e447b8da30b2bc81f59, type: 3}
+  m_Name: CD-22
+  m_EditorClassIdentifier: 
+  weaponname: "\u0421\u043D\u0430\u0439\u043F\u0435\u0440\u0441\u043A\u0430\u044F
+    \u0432\u0438\u043D\u0442\u043E\u0432\u043A\u0430 CD-22"
+  icon: {fileID: 21300000, guid: d21ebc67948e2f149973cd2befee042c, type: 3}
+  firerate: 1.7
+  dmg: 55
+  ammo: 9
+  maxammo: 30
+  reloadtime: 5
+  sound: 1
+  reloadsound: 1
+  recoil: 1
+  haveRotor: 0
+  haveScope: 1
+  haveProjectile: 0
+  projectile: {fileID: 0}
+  projectilespeed: 0
+  firespershoot: 1
+  firesplash: {fileID: 2205569781376571336, guid: d8d504fe8cba2e8448e4d048cf341fdd,
+    type: 3}
+  bulletmark: {fileID: 7804456198194490069, guid: c0d850f71768c6a43a5d02ec7b2a66f2,
+    type: 3}

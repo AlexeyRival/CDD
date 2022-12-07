@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{bf06dd6e-c45a-4857-97e7-806aa43ac731}">
+		<property name="assetPath">
+			<value>Аруданыч1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.3999999999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2f0da5a7-9373-45cb-96a4-57b98bab162c}</destination>
+		</relationship>
+	</object>
+</objects>

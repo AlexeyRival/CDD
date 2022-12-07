@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{dc7e9cd5-083b-4f5f-b114-723598288d28}">
+		<property name="assetPath">
+			<value>Провал2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>6.3540000000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2f0da5a7-9373-45cb-96a4-57b98bab162c}</destination>
+		</relationship>
+	</object>
+</objects>

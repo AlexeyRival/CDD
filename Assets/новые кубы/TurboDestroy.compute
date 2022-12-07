@@ -1,0 +1,115 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel boom
+#include "Packages/jp.keijiro.noiseshader/Shader/SimplexNoise3D.hlsl"
+static const int numThreads = 8;
+
+RWStructuredBuffer<float> points;
+RWStructuredBuffer<float4> caves;
+int numPointsPerAxis;
+
+float3 desPoint;
+float3 worldpos;
+float4 canion;
+float step;
+float radius;
+int seed;
+
+float dist(float3 a,float3 b) {
+    float dis;
+    float rsx = (a.x - b.x) * (a.x - b.x);
+    float rsy = (a.y - b.y) * (a.y - b.y);
+    float rsz = (a.z - b.z) * (a.z - b.z);
+    dis = sqrt(rsx+rsy+rsz);
+    return dis;
+}
+float awesomedist(float3 a, float3 b) {
+    float dis;
+    float rsx = (a.x - b.x) * (a.x - b.x);
+    float rsy = (a.y - b.y) * (a.y - b.y);
+    rsy *= 3;
+    float rsz = (a.z - b.z) * (a.z - b.z);
+    dis = sqrt(rsx + rsy + rsz);
+    return dis;
+}
+int indexFromCoord(int x, int y, int z) {
+    return z * numPointsPerAxis * numPointsPerAxis + y * numPointsPerAxis + x;
+}
+
+[numthreads(numThreads, 1, 1)]
+void boom(int3 id : SV_DispatchThreadID)
+{
+   
+    int u = id.x;//indexFromCoord(id.x, id.y, id.z);
+    float3 thispoint = float3(u % numPointsPerAxis, u / numPointsPerAxis % numPointsPerAxis, u / numPointsPerAxis / numPointsPerAxis);
+    float3 pos = thispoint*step + worldpos;
+    float3 localdes = (desPoint.xyz);
+    float pwr = 10;// points[u];
+    float dis = awesomedist(localdes, pos);
+    float3 noisepos = float3(seed+pos.x / 25, seed + pos.y / 25, seed + pos.z / 25);
+    float3 micronoisepos = float3(seed+pos.x, seed + pos.y, seed + pos.z);
+    float3 pancakenoisepos = float3(seed + pos.x / 35, seed + pos.y/10, seed + pos.z / 35);
+    float3 sticksnoisepos = float3(seed + pos.x / 10, seed + pos.y/35, seed + pos.z / 10);
+    float multier= .0155125;
+    if(dis<radius){
+        pwr = 6.1 + (dis / radius) + (SimplexNoise(noisepos) + 1) * .25;//.125 
+        multier = .003725;//.007725;
+    }
+    else if (dis < radius * 1.2) 
+    {
+        pwr = 9;
+    }
+    float locpwr;
+    for (int i = 0; i < caves.Length; ++i) 
+    {
+        localdes = float3(caves[i].x, caves[i].y, caves[i].z);
+        dis = dist(localdes, pos);
+        radius = caves[i].w;
+        noisepos = float3(seed + pos.x / (radius/1.5), seed + pos.y / (radius / 1.5), seed + pos.z / (radius / 1.5));
+        if (dis < radius) {
+            locpwr = 6.5 + (dis / caves[i].w) + (SimplexNoise(noisepos) + 1) * .125;
+            if (locpwr< pwr&&pwr>7) { 
+                pwr = locpwr;
+            }
+            else if (locpwr<pwr) {
+                pwr = (locpwr + pwr) * 1 / 3;
+            }
+        }
+    }
+    /*if (pwr < 7 && pwr>5) 
+    {
+        pwr += abs(SimplexNoise(pancakenoisepos) * .125);
+    }*/
+    if (pwr >6.8 && pwr<10) 
+    {
+       pwr -= abs(SimplexNoise(pancakenoisepos) * .25);
+    }
+    if (pwr <7 && pwr>5) 
+    {
+       pwr += abs(SimplexNoise(sticksnoisepos) * .0625);
+    }
+    if(pwr>6.9)if(canion.x+canion.y+canion.z+canion.w!=0) 
+    {
+        float f = abs((pos.x - canion.x) / sin(canion.w) - (pos.z - canion.z) / cos(canion.w));
+        if (pos.y-10 < canion.y &&
+            f<20
+            ) 
+        {
+            pwr = 6.5 + (f>1?(f/20 * abs(SimplexNoise(noisepos/10)+1.5) * .5): (SimplexNoise(noisepos) + 1) * .25);
+        }
+    }
+    pwr = pwr + SimplexNoise(micronoisepos) * multier;
+    if (pwr > 7.05 && pwr < 10) { pwr = 10; }
+
+    //float4 brr = float4(points[u].xyz, pwr);
+    points[u] = pwr;
+}
+
+#pragma kernel draw
+RWTexture3D<float> EditTexture;
+
+[numthreads(numThreads, 1, 1)]
+void draw(int id : SV_DispatchThreadID) 
+{
+    
+}
+

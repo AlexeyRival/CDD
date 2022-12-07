@@ -1,0 +1,87 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+
+
+struct walkpoint {
+    float3 pos;
+    float weight;
+    int angle;
+    int iter;
+};
+
+RWStructuredBuffer<walkpoint> points;
+bool isEnded;
+float3 endpoint;
+int endpointid;
+
+bool IsNeighbor(float3 a, float3 b) 
+{
+    for (int x = - 1; x < 2; ++x) {
+        for (int y = -1; y < 2; ++y) {
+            for (int z = - 1; z < 2; ++z) {
+                if (a.x+x*0.5 == b.x && a.y + y * 0.5 == b.y && a.y + y * 0.5 == b.y) {
+                    return true;
+                }
+            }
+        }
+    }
+    return false;
+}
+float dist(float3 a, float3 b) {
+    float dis;
+    float rsx = (a.x - b.x) * (a.x - b.x);
+    float rsy = (a.y - b.y) * (a.y - b.y);
+    float rsz = (a.z - b.z) * (a.z - b.z);
+    dis = sqrt(rsx + rsy + rsz);
+    return dis;
+}
+
+#pragma kernel Set
+int iter;
+[numthreads(8,1,1)]
+void Set (uint3 id : SV_DispatchThreadID)
+{
+    int u = id.x;
+    if (points[u].weight == 0) {
+    //if (points[u].weight == 0&&endpointid==-1) {
+        /*if (dist(points[u].pos, endpoint) < 1) 
+        {
+            endpointid = u;
+        }*/
+        for (int ii = 0; ii < points.Length; ++ii)if (points[ii].weight != 0)if(points[ii].iter<iter)
+        {
+            if (IsNeighbor(points[u].pos, points[ii].pos))
+            {
+                points[u].iter = iter;
+                points[u].weight = points[ii].weight + .25;
+            }
+        }
+    }
+}
+
+#pragma kernel Splat
+float3 startpoint;
+
+[numthreads(8, 1, 1)]
+void Splat(uint3 id : SV_DispatchThreadID)
+{
+    int u = id.x;
+    float3 a = abs(points[u].pos - startpoint);
+    if (dist(points[u].pos,startpoint)<1) 
+    {
+        points[u].weight = 1;
+        points[u].iter = -1;
+    }
+    /* {
+        points[u].iter = dist(points[u].pos, startpoint);
+        points[u].weight = dist(points[u].pos, startpoint) * 0.03;
+    }*/
+}
+
+#pragma kernel Clear
+[numthreads(8,1,1)]
+void Clear(uint3 id: SV_DispatchThreadID) 
+{
+    int u = id.x;
+    points[u].weight = 0;
+    points[u].iter = 0;
+}

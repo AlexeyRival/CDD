@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{9d062140-e99d-4e1c-b3c4-1eddfee9c0e1}">
+		<property name="assetPath">
+			<value>глас_1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>8.1120000000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2f0da5a7-9373-45cb-96a4-57b98bab162c}</destination>
+		</relationship>
+	</object>
+</objects>

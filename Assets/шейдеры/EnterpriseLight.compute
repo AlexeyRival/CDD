@@ -1,0 +1,77 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel Light
+
+struct wave 
+{
+	float3 pos;
+	float3 moveVector;
+	float4 color;
+	float time;
+	float maxtime;
+};
+// Create a RenderTexture with enableRandomWrite flag and set it
+// with cs.SetTexture
+RWStructuredBuffer<float4> points;
+StructuredBuffer<int> connections;
+RWStructuredBuffer<float4> light;
+RWStructuredBuffer<wave> waves;
+RWTexture2D<float4> Result;
+int iteration;
+float sqrtlen;
+
+float dist(float3 a, float3 b) {
+	float dis;
+	float rsx = (a.x - b.x) * (a.x - b.x);
+	float rsy = (a.y - b.y) * (a.y - b.y);
+	float rsz = (a.z - b.z) * (a.z - b.z);
+	dis = sqrt(rsx + rsy + rsz);
+	return dis;
+}
+
+int indexFromCoord(int x, int y, int z) {
+	return z * 100 + y * 10 + x;
+}
+[numthreads(8,8,8)]
+void Light (uint3 id : SV_DispatchThreadID)
+{
+	int u = id.x;// indexFromCoord(id.x, id.y, id.z);
+	//if (points[u].w < 6.5) { return; }
+	int c = (id.y*sqrtlen+id.z);
+	//for (int c = 0; c < connections.Length; ++c)//
+	if (connections[c] == u)
+	{
+		float d,dl;
+		//int r = id.y;
+			for (int r = 0; r < waves.Length; ++r) {
+				d = dist(points[u].xyz, waves[r].pos + waves[r].moveVector * (iteration + 1));
+				if (waves[r].time > iteration && d < (waves[r].maxtime - iteration + 1))
+				{
+					dl = d * (waves[r].maxtime/(iteration+1));
+					light[c] = float4(dl, dl, dl, 1);
+					//break;
+				}
+			}
+		
+	}
+	/*
+	int u = id.y;
+	if (waves[u].time <= 0) { return; }
+	//for (int i = 0; i < points.Length; ++i) 
+	int i = id.x;// GetIndex(id.x, id.z);
+	{
+		//if (points[i].w > 7 )//&& dist(points[i].xyz, waves[u].pos)<(waves[u].maxtime-waves[u].time+1)) 
+		{
+			for (int ii = 0; ii < connections.Length; ++ii) 
+			{
+				if (connections[ii] == i) 
+				{
+					//float3 rgb = waves[u].color.rgb * (waves[u].time / waves[u].maxtime) + light[ii].rgb;
+					light[ii] = float4(1,1,1,1);//float4(rgb.r, rgb.g, rgb.b, 1);
+					//waves[u].time -= (dist(points[i].xyz, waves[u].pos) / 4);
+				}
+			}
+		}
+	}*/
+
+	//waves[u].time -= 1;
+}

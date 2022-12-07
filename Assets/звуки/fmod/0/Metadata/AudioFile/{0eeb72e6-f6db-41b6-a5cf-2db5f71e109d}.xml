@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{0eeb72e6-f6db-41b6-a5cf-2db5f71e109d}">
+		<property name="assetPath">
+			<value>Саплай1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.9430000000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2f0da5a7-9373-45cb-96a4-57b98bab162c}</destination>
+		</relationship>
+	</object>
+</objects>

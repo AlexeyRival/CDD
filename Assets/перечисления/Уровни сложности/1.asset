@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2e26f2090f1ce34bb5cfdfb9698742c, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: Assembly-CSharp::supplylevel
+  difname: "\u041F\u043E\u0432\u044B\u0448\u0435\u043D\u043D\u0430\u044F"
+  bonus: 50
+  BugsAgression: 0.25
+  SwarmmeterMultiplier: 0.1
+  TimerMultiplier: 0.4
+  OpressorSpawnChance: 10
+  icon: {fileID: 21300000, guid: bcd4b6ac05705e446b266f06f5124eac, type: 3}

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d3350a52ca2e447b8da30b2bc81f59, type: 3}
+  m_Name: "\u041D\u043E\u0444\u0442\u0438"
+  m_EditorClassIdentifier: 
+  weaponname: "\u041E\u0433\u043D\u0435\u043C\u0451\u0442 \"\u041D\u043E\u0444\u0442\u0438\""
+  icon: {fileID: 21300000, guid: b76f6046dc83341498b0fe01b1ecd4fd, type: 3}
+  firerate: 3
+  dmg: 10
+  ammo: 30
+  maxammo: 120
+  reloadtime: 5
+  sound: 5
+  reloadsound: 1
+  recoil: 0.5
+  haveRotor: 0
+  haveScope: 0
+  haveProjectile: 1
+  projectile: {fileID: 6856199312167725961, guid: 01e2f174c522c1741b4f07cf204734f7,
+    type: 3}
+  isRailgun: 0
+  railStreakCount: 5
+  isChain: 0
+  chaincount: 5
+  projectilespeed: 0.1
+  projectileLifeTime: 5
+  firespershoot: 1
+  firesplash: {fileID: 2205569781376571336, guid: d8d504fe8cba2e8448e4d048cf341fdd,
+    type: 3}
+  bulletmark: {fileID: 0}

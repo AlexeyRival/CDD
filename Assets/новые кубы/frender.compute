@@ -1,0 +1,79 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel Burn
+
+struct walkpoint {
+    float3 pos;
+    float weight;
+    int angle;
+    int iter;
+};
+struct walkpointdata {
+    int n0;
+    int n1;
+    int n2;
+    int n3;
+    int n4;
+    int n5;
+    int n6;
+    int n7;
+    int Lenght;
+};
+
+RWStructuredBuffer<walkpoint> points;
+RWStructuredBuffer<walkpointdata> pointsdatas;
+
+bool IsNeighbor(float3 a, float3 b)
+{
+    for (int x = -1; x < 2; ++x) {
+        for (int y = -1; y < 2; ++y) {
+            for (int z = -1; z < 2; ++z) {
+                if (a.x + x * 0.5 == b.x && a.y + y * 0.5 == b.y && a.y + y * 0.5 == b.y) {
+                    return true;
+                }
+            }
+        }
+    }
+    return false;
+}
+float dist(float3 a, float3 b) {
+    float dis;
+    float rsx = (a.x - b.x) * (a.x - b.x);
+    float rsy = (a.y - b.y) * (a.y - b.y);
+    float rsz = (a.z - b.z) * (a.z - b.z);
+    dis = sqrt(rsx + rsy + rsz);
+    return dis;
+}
+void SetData(int index, int data) 
+{
+    if (pointsdatas[index].Lenght > 7) { return; }
+    int l = pointsdatas[index].Lenght;
+    switch (l) {
+    case 0: pointsdatas[index].n0 = data; break;
+    case 1: pointsdatas[index].n1 = data; break;
+    case 2: pointsdatas[index].n2 = data; break;
+    case 3: pointsdatas[index].n3 = data; break;
+    case 4: pointsdatas[index].n4 = data; break;
+    case 5: pointsdatas[index].n5 = data; break;
+    case 6: pointsdatas[index].n6 = data; break;
+    case 7: pointsdatas[index].n7 = data; break;
+    }
+}
+
+
+
+[numthreads(8,1,1)]
+void Burn (uint3 id : SV_DispatchThreadID)
+{
+    int u = id.x;
+    if (points[u].weight == 0) {
+        for (int ii = 0; ii < points.Length; ++ii)
+        {
+            //if (IsNeighbor(points[u].pos, points[ii].pos))
+            if (dist(points[u].pos, points[ii].pos)<.26)
+            {
+                SetData(u, ii);
+                ++pointsdatas[u].Lenght;
+            }
+        }
+    }
+}

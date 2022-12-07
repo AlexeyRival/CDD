@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d3350a52ca2e447b8da30b2bc81f59, type: 3}
+  m_Name: RO-ZERO
+  m_EditorClassIdentifier: 
+  weaponname: "\u0420\u0430\u043A\u0435\u0442\u043D\u0438\u0446\u0430 RO-ZERO"
+  icon: {fileID: 21300000, guid: 0ede365fec215e445b6a415248126c9a, type: 3}
+  firerate: 0.2
+  dmg: 150
+  ammo: 1
+  maxammo: 12
+  reloadtime: 7
+  sound: 4
+  reloadsound: 1
+  recoil: 4
+  haveRotor: 0
+  haveScope: 0
+  haveProjectile: 1
+  projectile: {fileID: 7633865443162330833, guid: 021c48c26ba8e5042b36713394a0a173,
+    type: 3}
+  isRailgun: 0
+  railStreakCount: 5
+  isChain: 0
+  chaincount: 5
+  projectilespeed: 2
+  projectileLifeTime: 30
+  firespershoot: 1
+  firesplash: {fileID: 2708532952280478845, guid: 85678a5a14f60e349be6ac3c632f025d,
+    type: 3}
+  bulletmark: {fileID: 0}

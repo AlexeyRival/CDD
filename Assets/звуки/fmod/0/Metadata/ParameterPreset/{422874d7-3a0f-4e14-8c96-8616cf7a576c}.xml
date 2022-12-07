@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{422874d7-3a0f-4e14-8c96-8616cf7a576c}">
+		<property name="name">
+			<value>ClickID</value>
+		</property>
+		<relationship name="folder">
+			<destination>{8b916cec-e138-4856-9c45-c5681b2270d5}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{6d71e8b2-eaf2-4cb0-b406-35a6845d712f}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{6d71e8b2-eaf2-4cb0-b406-35a6845d712f}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

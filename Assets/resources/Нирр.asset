@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f8b331fa24a874ea9d15a7c1296736, type: 3}
+  m_Name: "\u041D\u0438\u0440\u0440"
+  m_EditorClassIdentifier: 
+  materialName: "\u041D\u0438\u0440\u0440"
+  id: 2
+  color: {r: 0, g: 1, b: 0.6156863, a: 1}
+  icon: {fileID: 2800000, guid: b579f14d9b58d224d95f2757cf676e27, type: 3}
+  orePrefab: {fileID: 8573835662072115158, guid: ae1b1f1399bb03045a8a58bd786ce172,
+    type: 3}
+  maskPrefab: {fileID: 7347426599568444817, guid: fdff8ef4812539846b80d78066a23f62,
+    type: 3}
+  itemPrefab: {fileID: 6422380977997425738, guid: e34a90ff08ca5ea40b02ec7471ea7b1c,
+    type: 3}
+  maxInBag: 15
+  maxInVein: 7
+  brushRadius: 1
