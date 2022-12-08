@@ -9,7 +9,7 @@ public class TurboMarching : MonoBehaviour
     //необходимое
     public MeshFilter filter;
     public MeshCollider collider;
-    public ComputeShader shader, destroyerShader, EnterpriseShader;
+    public ComputeShader shader, destroyerShader, EnterpriseShader, optshader;
     public int sizeXYZ = 80;
     public float size = 0.05f;
     public float step = 1.25f;
@@ -58,67 +58,33 @@ public class TurboMarching : MonoBehaviour
         octos.Add(new OctoTree(0, center, 10f, false));
         Generate();
     }
-    public void CheckUpdate(GameObject sph) {
-        //костыль
-        float supersize = 10f;
-        if (sph.transform.position.x - transform.position.x + sph.transform.localScale.x < 0 || sph.transform.position.y - transform.position.y + sph.transform.localScale.y < 0 || sph.transform.position.z - transform.position.z + sph.transform.localScale.z < 0 ||
-         (sph.transform.position.x - sph.transform.localScale.x) > transform.position.x + supersize || (sph.transform.position.y - sph.transform.localScale.y) > transform.position.y + supersize || (sph.transform.position.z - sph.transform.localScale.z) > transform.position.z + supersize)
-        {
-            return;
-        }
+    public bool CheckUpdate(Vector4[] destroyers)
+    {
+        int ii = 0;
+        Vector3 vec;
+        Vector3 cvec;
         bool isChanged = false;
-        Vector3 vec = sph.transform.position;
-        float scale = sph.transform.localScale.x;
-        int iscale = (int)(scale * 2.5f);
-        int minx = (int)((vec.x - transform.position.x) * (1 / step) - scale * 2.5f);
-        int miny = (int)((vec.y - transform.position.y) * (1 / step) - scale * 2.5f);
-        int minz = (int)((vec.z - transform.position.z) * (1 / step) - scale * 2.5f);
-        int maxx = (int)(minx + scale * 5f);
-        int maxy = (int)(miny + scale * 5f);
-        int maxz = (int)(minz + scale * 5f);
-        int lx = maxx - minx;
-        int ly = maxy - miny;
-        int lz = maxz - minz;
-        float cx = (maxx + minx) / 2 + 0.00001f;
-        float cy = (maxy + miny) / 2 + 0.00001f;
-        float cz = (maxz + minz) / 2 + 0.00001f;
-        float multipler;
-        float mx, my, mz;
-        if (minx < 0) minx = 0;
-        if (maxx > sizeXYZ) maxx = sizeXYZ;
-        if (miny < 0) miny = 0;
-        if (maxy > sizeXYZ) maxy = sizeXYZ;
-        if (minz < 0) minz = 0;
-        if (maxz > sizeXYZ) maxz = sizeXYZ;
-        int x, y, z;
-        multipler = isolevel * 0.5f;
-        float scl = scale * (1 / step)*4;
-        Vector3 cvec = new Vector3(cx, cy, cz);
-        for (x = minx; x < maxx; ++x)
+        bool dontchange=false;
+        for (int i = 0; i < space.Length; ++i)
         {
-            //  mx = cx/ Mathf.Abs(x - cx)-1f;
-            for (y = miny; y < maxy; ++y)
+            vec = new Vector3((i % sizeXYZ) * step, (i / sizeXYZ % sizeXYZ) * step, (i / sizeXYZ / sizeXYZ) * step);
+            for (ii = 0; ii < destroyers.Length; ++ii)
             {
-                //    my = cy / Mathf.Abs(x - cx)-1f;
-                for (z = minz; z < maxz; ++z) if (space[x + y * sizeXYZ + z * sizeXYZ * sizeXYZ] > isolevel)
-                    {
-                        //          mz = cz / Mathf.Abs(z - cz)-1f;
-
-                        //        multipler = mx + my + mz;
-                        //      multipler *= 0.334f;
-                        //if (Generator.FastDist(vec, new Vector3(x, y, z) * step + transform.position, scale))
-                        if (Generator.FastDist(cvec, new Vector3(x, y, z), scl))
-                        {
-                            space[x + y * sizeXYZ + z * sizeXYZ * sizeXYZ] -= multipler;
-                           // if (decorations.ContainsKey(new Vector3(x, y, z)*step)) { Destroy(decorations[new Vector3(x, y, z) * step]); }
-                            //        space[x + y * sizeXYZ + z * sizeXYZ * sizeXYZ].w -= isolevel;
-                            if (!isChanged&&space[x + y * sizeXYZ + z * sizeXYZ * sizeXYZ] < isolevel) isChanged = true;
-                        }
-                    }
+                cvec = new Vector3(destroyers[ii].x, destroyers[ii].y, destroyers[ii].z);
+                //if (!generator.IsChunkContainSphere(this,cvec,destroyers[ii].w)) { continue; }
+                if (Generator.FastDist(cvec, vec, destroyers[ii].w* destroyers[ii].w))
+                {
+                    dontchange = space[i] < isolevel;
+                    space[i] -= destroyers[ii].w;// multipler;
+                    isChanged = isChanged || (!dontchange&&space[i] < isolevel);
+                }
             }
         }
 
-        if (isChanged) { UpdateMesh(); }
+
+
+
+        return isChanged;
     }
     public void TurboUpdate(Vector3 centerpoint, float radius, Vector4[] points,Vector4 canion) {
         noise = new FastNoiseLite();
@@ -358,49 +324,47 @@ public class TurboMarching : MonoBehaviour
         Mesh mesh = new Mesh();
 
         int numThreadsPerAxis = Mathf.CeilToInt(numVoxelsPerAxis / (float)threadGroupSize);
+        bool changed = false;
         //int numThreadsPerAxis = 8;
-
-        pointsBuffer.SetData(space);
-        connectorsBuffer.SetData(cons);
-        destroybuffer.SetData(destroyers);
-
-        int _kernelindex = shader.FindKernel("Dest");
-        shader.SetBuffer(_kernelindex, "points", pointsBuffer);
-        shader.SetBuffer(_kernelindex, "destroyers", destroybuffer);
-        shader.SetBuffer(_kernelindex, "connectors", connectorsBuffer);
-        shader.Dispatch(_kernelindex, numThreadsPerAxis, numThreadsPerAxis, numThreadsPerAxis);
-        bool changed = true;// false;
-        // получение изменения
-        connectorsBuffer.GetData(cons);
-        /*for (int i = 0; i < destroyers.Length; ++i) 
+        int _kernelindex;
+        if (customNetworkHUD.DestroyMode)
         {
-            Collider[] casts = Physics.OverlapBox(new Vector3(destroyers[i].x, destroyers[i].y, destroyers[i].z), new Vector3(destroyers[i].w, destroyers[i].w, destroyers[i].w));
-            for (int ii = 0; ii < casts.Length; ++ii) 
-            {
-                if (casts[ii].gameObject == gameObject) 
-                {
-                    changed = true;
-                    break;
-                }
-            }
-            if (changed) { break; }
-        }*/
-        //changed = cons[3] == 1;
+            pointsBuffer.SetData(space);
+            connectorsBuffer.SetData(cons);
+            destroybuffer.SetData(destroyers);
+
+            _kernelindex = shader.FindKernel("Dest");
+            shader.SetBuffer(_kernelindex, "points", pointsBuffer);
+            shader.SetBuffer(_kernelindex, "destroyers", destroybuffer);
+            shader.SetBuffer(_kernelindex, "connectors", connectorsBuffer);
+            shader.SetInt("numPointsPerAxis", sizeXYZ);
+            shader.SetFloat("scale", step);
+            shader.Dispatch(_kernelindex, numThreadsPerAxis, numThreadsPerAxis, numThreadsPerAxis);
+            // получение изменения
+            pointsBuffer.GetData(space);
+            connectorsBuffer.GetData(cons);
+            changed = cons[3] == 1;
+        }
+        else 
+        {
+            changed = CheckUpdate(destroyers);
+        }
         if (changed||justup)
         {
-            _kernelindex = shader.FindKernel("March");
+            pointsBuffer.SetData(space);
+            _kernelindex = optshader.FindKernel("March");
             triangleBuffer.SetCounterValue(0);
-            shader.SetBuffer(_kernelindex, "points", pointsBuffer);
-            shader.SetBuffer(_kernelindex, "triangles", triangleBuffer);
-            shader.SetBuffer(_kernelindex, "connectors", connectorsBuffer);
-            shader.SetBuffer(_kernelindex, "destroyers", destroybuffer);
-            shader.SetInt("numPointsPerAxis", sizeXYZ);
-            shader.SetFloat("isoLevel", isolevel);
-            shader.SetFloat("scale", step);
-            shader.SetInt("seed", generator.seed);
-            shader.SetVector("chunkpos", transform.position);
+            optshader.SetBuffer(_kernelindex, "points", pointsBuffer);
+            optshader.SetBuffer(_kernelindex, "triangles", triangleBuffer);
+            optshader.SetBuffer(_kernelindex, "connectors", connectorsBuffer);
+            optshader.SetBuffer(_kernelindex, "destroyers", destroybuffer);
+            optshader.SetInt("numPointsPerAxis", sizeXYZ);
+            optshader.SetFloat("isoLevel", isolevel);
+            optshader.SetFloat("scale", step);
+            optshader.SetInt("seed", generator.seed);
+            optshader.SetVector("chunkpos", transform.position);
 
-            shader.Dispatch(_kernelindex, numThreadsPerAxis, numThreadsPerAxis, numThreadsPerAxis);
+            optshader.Dispatch(_kernelindex, numThreadsPerAxis, numThreadsPerAxis, numThreadsPerAxis);
 
             //навигационные кубы
 

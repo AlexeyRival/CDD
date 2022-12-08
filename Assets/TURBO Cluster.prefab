@@ -109,9 +109,8 @@ MonoBehaviour:
   collider: {fileID: 3119734591642786180}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -255,9 +254,8 @@ MonoBehaviour:
   collider: {fileID: 3119734591644288593}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -401,9 +399,8 @@ MonoBehaviour:
   collider: {fileID: 3119734591647632333}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -547,9 +544,8 @@ MonoBehaviour:
   collider: {fileID: 3119734591650268910}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -693,9 +689,8 @@ MonoBehaviour:
   collider: {fileID: 3119734591652584863}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -839,9 +834,8 @@ MonoBehaviour:
   collider: {fileID: 3119734591679963390}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -985,9 +979,8 @@ MonoBehaviour:
   collider: {fileID: 3119734591688320181}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -1131,9 +1124,8 @@ MonoBehaviour:
   collider: {fileID: 3119734591690580248}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -1277,9 +1269,8 @@ MonoBehaviour:
   collider: {fileID: 3119734591698957957}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -1423,9 +1414,8 @@ MonoBehaviour:
   collider: {fileID: 3119734591712194682}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -1569,9 +1559,8 @@ MonoBehaviour:
   collider: {fileID: 3119734591715595482}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -1715,9 +1704,8 @@ MonoBehaviour:
   collider: {fileID: 3119734591750044188}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -1861,9 +1849,8 @@ MonoBehaviour:
   collider: {fileID: 3119734591760873608}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -2007,9 +1994,8 @@ MonoBehaviour:
   collider: {fileID: 3119734591767661935}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -2153,9 +2139,8 @@ MonoBehaviour:
   collider: {fileID: 3119734591795065158}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -2299,9 +2284,8 @@ MonoBehaviour:
   collider: {fileID: 3119734591801848881}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -2445,9 +2429,8 @@ MonoBehaviour:
   collider: {fileID: 3119734591816128035}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -2591,9 +2574,8 @@ MonoBehaviour:
   collider: {fileID: 3119734591817057809}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -2737,9 +2719,8 @@ MonoBehaviour:
   collider: {fileID: 3119734591832338216}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -2883,9 +2864,8 @@ MonoBehaviour:
   collider: {fileID: 3119734591834953499}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -3029,9 +3009,8 @@ MonoBehaviour:
   collider: {fileID: 3119734591852945386}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -3175,9 +3154,8 @@ MonoBehaviour:
   collider: {fileID: 3119734591858620695}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -3321,9 +3299,8 @@ MonoBehaviour:
   collider: {fileID: 3119734591891460298}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -3467,9 +3444,8 @@ MonoBehaviour:
   collider: {fileID: 3119734591899976054}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -3613,9 +3589,8 @@ MonoBehaviour:
   collider: {fileID: 3119734591913463990}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -3759,9 +3734,8 @@ MonoBehaviour:
   collider: {fileID: 3119734591920345641}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -3905,9 +3879,8 @@ MonoBehaviour:
   collider: {fileID: 3119734591922891581}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -4051,9 +4024,8 @@ MonoBehaviour:
   collider: {fileID: 3119734591941477968}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -4197,9 +4169,8 @@ MonoBehaviour:
   collider: {fileID: 3119734591949661434}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -4343,9 +4314,8 @@ MonoBehaviour:
   collider: {fileID: 3119734591950888275}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -4489,9 +4459,8 @@ MonoBehaviour:
   collider: {fileID: 3119734591966808232}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -4635,9 +4604,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592015374517}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -4781,9 +4749,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592026818348}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -4927,9 +4894,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592027814897}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -5073,9 +5039,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592066886734}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -5219,9 +5184,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592074925784}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -5365,9 +5329,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592082739827}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -5511,9 +5474,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592087069573}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -5657,9 +5619,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592088737363}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -5803,9 +5764,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592101042817}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -5949,9 +5909,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592123369346}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -6095,9 +6054,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592141600631}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -6241,9 +6199,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592142741132}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -6387,9 +6344,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592150632994}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -6533,9 +6489,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592152281681}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -6679,9 +6634,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592178193787}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -6825,9 +6779,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592191812989}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -6971,9 +6924,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592199220716}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -7117,9 +7069,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592200738041}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -7263,9 +7214,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592201864026}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -7409,9 +7359,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592228481708}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -7555,9 +7504,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592254923883}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -7701,9 +7649,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592269832212}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -7847,9 +7794,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592270758395}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -7993,9 +7939,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592276748555}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -8139,9 +8084,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592276984623}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -8285,9 +8229,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592282504561}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -8431,9 +8374,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592288492268}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -8577,9 +8519,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592305805350}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -8723,9 +8664,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592309338051}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -8869,9 +8809,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592323829409}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -9015,9 +8954,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592331464044}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -9161,9 +9099,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592337378809}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -9307,9 +9244,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592371461442}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -9453,9 +9389,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592371548484}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -9599,9 +9534,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592385269489}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -9745,9 +9679,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592392360474}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -9891,9 +9824,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592392908660}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -10037,9 +9969,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592395738459}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -10183,9 +10114,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592401973173}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -10329,9 +10259,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592404515797}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -10475,9 +10404,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592405782271}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -10621,9 +10549,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592409620870}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -10767,9 +10694,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592411678203}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -10913,9 +10839,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592421496777}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -11059,9 +10984,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592421920868}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -11205,9 +11129,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592429698286}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -11351,9 +11274,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592442020060}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -11497,9 +11419,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592452138235}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -11643,9 +11564,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592465614186}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -11789,9 +11709,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592471737846}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -11935,9 +11854,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592491828644}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -12081,9 +11999,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592509571224}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -12227,9 +12144,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592510445932}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -12373,9 +12289,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592511596602}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -12519,9 +12434,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592517217597}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -12665,9 +12579,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592535582822}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -12811,9 +12724,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592549880127}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -12957,9 +12869,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592557852332}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -13103,9 +13014,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592564277282}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -13249,9 +13159,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592570294725}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -13395,9 +13304,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592585246145}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -13541,9 +13449,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592605301882}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -13687,9 +13594,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592617706256}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -13833,9 +13739,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592630178425}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -13979,9 +13884,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592670921999}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -14125,9 +14029,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592702490437}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -14271,9 +14174,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592705684864}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -14417,9 +14319,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592706174102}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -14563,9 +14464,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592709280041}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -14709,9 +14609,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592730825801}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -14855,9 +14754,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592738495420}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -15001,9 +14899,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592739474657}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -15147,9 +15044,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592752208223}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -15293,9 +15189,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592756299409}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -15439,9 +15334,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592766878378}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -15585,9 +15479,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592767604727}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -15731,9 +15624,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592816023332}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -15877,9 +15769,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592818443287}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -16023,9 +15914,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592821403957}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -16169,9 +16059,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592838710961}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -16315,9 +16204,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592846921790}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -16461,9 +16349,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592850908855}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -16607,9 +16494,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592854038023}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -16753,9 +16639,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592859239701}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -16899,9 +16784,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592867515021}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -17045,9 +16929,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592870622942}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -17191,9 +17074,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592872136228}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -17337,9 +17219,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592880182235}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -17483,9 +17364,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592882298272}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -17629,9 +17509,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592889743355}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -17775,9 +17654,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592898690205}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -17921,9 +17799,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592908268551}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -18067,9 +17944,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592914407274}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -18213,9 +18089,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592916535279}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -18359,9 +18234,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592918917314}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -18505,9 +18379,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592935566780}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -18651,9 +18524,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592938697739}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -18797,9 +18669,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592950886215}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -18943,9 +18814,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592951223439}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -19089,9 +18959,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592956277204}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -19235,9 +19104,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592956648787}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -19381,9 +19249,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592961198167}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -19527,9 +19394,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592964639046}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -19673,9 +19539,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592965490263}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -19819,9 +19684,8 @@ MonoBehaviour:
   collider: {fileID: 3119734592968313521}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -19965,9 +19829,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593009954995}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -20111,9 +19974,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593015894477}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -20257,9 +20119,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593024882590}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -20403,9 +20264,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593028571021}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -20549,9 +20409,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593050985097}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -20695,9 +20554,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593067142885}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -20841,9 +20699,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593069970063}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -20987,9 +20844,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593076532544}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -21133,9 +20989,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593093138585}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -21279,9 +21134,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593097840282}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -21425,9 +21279,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593100622803}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -21571,9 +21424,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593115764840}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -21717,9 +21569,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593128294914}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -21863,9 +21714,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593133604761}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -22009,9 +21859,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593142814517}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -22155,9 +22004,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593147135853}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -22301,9 +22149,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593147855563}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -22447,9 +22294,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593153434905}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -22593,9 +22439,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593159119461}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -22739,9 +22584,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593165014300}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -22885,9 +22729,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593170719946}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -23031,9 +22874,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593190862597}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -23177,9 +23019,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593194656468}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -23323,9 +23164,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593200426994}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -23469,9 +23309,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593211113863}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -23615,9 +23454,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593214816213}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -23761,9 +23599,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593225905795}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -23907,9 +23744,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593233670967}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -24053,9 +23889,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593252826145}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -24199,9 +24034,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593277203933}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -24345,9 +24179,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593290228469}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -24491,9 +24324,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593290233335}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -24637,9 +24469,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593295551365}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -24783,9 +24614,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593307009235}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -24929,9 +24759,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593310619084}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -25075,9 +24904,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593333934524}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -25221,9 +25049,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593340970301}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -25367,9 +25194,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593342968754}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -25513,9 +25339,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593345912745}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -25659,9 +25484,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593357474181}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -25805,9 +25629,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593364313185}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -25951,9 +25774,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593380812413}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -26097,9 +25919,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593382507455}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -26243,9 +26064,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593403834778}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -26389,9 +26209,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593406747792}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -26535,9 +26354,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593429645617}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -26681,9 +26499,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593441581838}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -26827,9 +26644,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593445040221}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -26973,9 +26789,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593448099431}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -27119,9 +26934,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593462961648}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -27265,9 +27079,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593467613376}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -27411,9 +27224,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593477030160}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -27557,9 +27369,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593484057877}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -27703,9 +27514,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593486403880}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -27849,9 +27659,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593486766736}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -27995,9 +27804,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593489822417}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -28141,9 +27949,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593491871043}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -28287,9 +28094,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593494574946}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -28433,9 +28239,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593501446287}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -28579,9 +28384,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593503398918}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -28725,9 +28529,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593540226442}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -28871,9 +28674,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593541827023}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -29017,9 +28819,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593562639961}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -29163,9 +28964,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593578352746}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -29309,9 +29109,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593578669086}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -29455,9 +29254,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593602862388}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -29601,9 +29399,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593606253968}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -29747,9 +29544,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593607307924}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -29893,9 +29689,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593621800270}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -30039,9 +29834,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593678337900}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -30185,9 +29979,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593691885018}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -30331,9 +30124,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593692922875}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -30477,9 +30269,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593696431134}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -30623,9 +30414,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593703398340}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -30769,9 +30559,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593717303913}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -30915,9 +30704,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593740410088}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -31061,9 +30849,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593742035711}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -31207,9 +30994,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593744394047}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -31353,9 +31139,8 @@ MonoBehaviour:
   collider: {fileID: 3119734593778081333}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25
@@ -31499,9 +31284,8 @@ MonoBehaviour:
   collider: {fileID: 4621827621632384589}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}
-  navShader: {fileID: 7200000, guid: 5106ee39a528cf043939acf2c4d800eb, type: 3}
-  frenderShader: {fileID: 7200000, guid: 955b1e4464b5d7e4eaf61d5c7ffa3572, type: 3}
   EnterpriseShader: {fileID: 7200000, guid: c43ccc4d99035d14594fbffdd3063e6b, type: 3}
+  optshader: {fileID: 7200000, guid: c923e1a8ba337774394022fe35dae3d1, type: 3}
   sizeXYZ: 40
   size: 5
   step: 0.25

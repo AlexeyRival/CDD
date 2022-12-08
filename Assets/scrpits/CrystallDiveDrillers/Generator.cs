@@ -10,7 +10,7 @@ public class Generator : NetworkBehaviour
     public int sizeX = 2;
     public int sizeY = 2;
     public int sizeZ = 2;
-    public GameObject platform, planet, hub, blackscreen;
+    public GameObject platform, planet, hub,respawnpoint, blackscreen;
     public GameObject cluster;
     public GameObject mule, mulemarker;
     public GameObject hiveprefab, eggprefab, bridge;
@@ -73,6 +73,7 @@ public class Generator : NetworkBehaviour
     public GameObject UIaccountlevel;
     public Sprite[] levelprogress;
     private int targetxp;
+    private int targetmoney;
 
     //поиск пути
     //public List<walkpoint> walkpoints;
@@ -92,7 +93,7 @@ public class Generator : NetworkBehaviour
     private bool deleteitalllocal;
     private Vector3 startplatfromposition;
     [SyncVar]
-    private bool isFailure = false;
+    public bool isFailure = false;
     private bool isQuestCompete, isQuestCompleteLocal;
 
     //дела отладочные
@@ -239,6 +240,10 @@ public class Generator : NetworkBehaviour
         UIaccountlevel.transform.Find("levelpic").GetComponent<Image>().sprite = levelprogress[network.accountxp];
         UIaccountlevel.transform.Find("level").GetComponent<Text>().text = network.accountlvl.ToString();
     }
+    private void UpdateAccountMoney() 
+    {
+        UIaccountlevel.transform.Find("money").GetChild(0).GetComponent<Text>().text = player.money.ToString();
+    }
     private void ActualiseMission()
     {
         isQuestCompete = GetQuestStatus();
@@ -255,6 +260,7 @@ public class Generator : NetworkBehaviour
     }
     private void CloseMission(bool fail) {
         targetxp = 0;
+        targetmoney = 0;
         int xp_resource = 0;
         int xp_kills = 0;
         int xp_firstquest = 0;
@@ -262,32 +268,48 @@ public class Generator : NetworkBehaviour
         
         for (int i = 0; i < resourcesCount.Count; ++i) {
             xp_resource += resourcesCount[i];
+            targetmoney += i;
         }
         xp_kills += player.thisplayer.kills;
 
         if (currentquest == questtype.Добыча) {
             xp_resource += resourcesCount[questtarget]*2;
+            targetmoney += resourcesCount[questtarget]*2*questtarget;
             if (resourcesCount[questtarget] >= questparam) {
                 xp_firstquest = 2500;
+                targetmoney += 500;
             }
         }else
         if (currentquest == questtype.Поиск) {
             xp_resource += resourcesCount[questtarget]*5;
+            targetmoney += resourcesCount[questtarget] * 10;
             if (resourcesCount[questtarget] >= questparam) {
                 xp_firstquest = 3000;
+                targetmoney += 500;
             }
         }else
         if (currentquest == questtype.Подавление) {
             xp_kills *= 5;
-            if(!fail)xp_firstquest = 3000;
-        }else
+            targetmoney += player.thisplayer.kills*2;
+            if (!fail)
+            {
+                xp_firstquest = 3000;
+                targetmoney += 1000;
+            }
+        }
+        else
         if (currentquest == questtype.Ликвидация) {
             xp_kills *= 5;
-            if(!fail)xp_firstquest = 3000;
-        }else
+            if (!fail) { 
+                xp_firstquest = 3000; 
+                targetmoney += 1000;
+            }
+        }
+        else
         if (currentquest == questtype.Бойня) {
             xp_kills *= 2;
             xp_firstquest = 2000;
+            targetmoney += 1000;
         }
 
 
@@ -295,17 +317,17 @@ public class Generator : NetworkBehaviour
         xp_kills= (int)(xp_kills * missioncontroller.difficulties[questdifficulty].bonus * 0.01f);
         xp_firstquest = (int)(xp_firstquest*missioncontroller.difficulties[questdifficulty].bonus * 0.01f);
         xp_secondquest = (int)(xp_secondquest*missioncontroller.difficulties[questdifficulty].bonus * 0.01f);
-        
+        targetmoney = (int)(targetmoney * missioncontroller.difficulties[questdifficulty].bonus * 0.01f);
         if (fail)
         {
             xp_resource = 0;
             xp_kills /= 10;
             xp_firstquest /= 10;
             xp_secondquest = 0;
+            targetmoney /= 10;
         }
 
         targetxp = xp_resource + xp_kills + xp_firstquest + xp_secondquest;
-
         //if (fail) { targetxp = 15; }
 
         endmission.transform.Find("resources").GetComponent<Text>().text=xp_resource+"XP";
@@ -313,6 +335,7 @@ public class Generator : NetworkBehaviour
         endmission.transform.Find("firstquest").GetComponent<Text>().text=xp_firstquest + "XP";
         endmission.transform.Find("secondquest").GetComponent<Text>().text=xp_secondquest + "XP";
         endmission.transform.Find("all").GetComponent<Text>().text=targetxp+"XP";
+        endmission.transform.Find("allMoney").GetComponent<Text>().text=targetmoney+"D";
         endmission.transform.Find("Level").GetComponent<Text>().text = "" + player.level;
 
         MissionControlVoice.only.PlayReplica(isFailure ? 12 : 11);
@@ -321,6 +344,8 @@ public class Generator : NetworkBehaviour
         endmission.SetActive(true);
         Currentmission.SetActive(false);
         UpdateAccountLevel();
+        player.money += targetmoney;
+        UpdateAccountMoney();
     }
     public List<Vector3> GetOctoPath(Vector3 start, Vector3 end) 
     {
@@ -1097,6 +1122,7 @@ public class Generator : NetworkBehaviour
         if (player.dwarfclass != -1&&platformstatus==0)
         {
             UpdateAccountLevel();
+            UpdateAccountMoney();
         }
         if (targetxp > 0) {
             
@@ -1142,6 +1168,7 @@ public class Generator : NetworkBehaviour
                 blackscreen.SetActive(false);
                 network.dwarfxp[player.dwarfclass] = player.xp;
                 network.dwarflevels[player.dwarfclass] = player.level;
+                network.accountmoney = player.money;
                 network.Save();
                 CmdSetFailure(false);
             }

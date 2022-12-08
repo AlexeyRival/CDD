@@ -17,13 +17,14 @@ public class customNetworkHUD : NetworkManager
     public int[] dwarfxp=new int[8];
     public int[] dwarfeliteranks=new int[8];
     public int[] dwarfprestige=new int[8];
-    public int accountlvl, accountxp;
+    public int accountlvl, accountxp, accountmoney;
     public GameObject classselector, blackscreen;
     public NetworkDiscovery networkDiscovery;
     public GameObject canvasmenu;
     public GameObject buttonserverprefab,serverlist;
     public InputField nickfield;
     private const string version = "p-3 D-1";
+    public static bool DestroyMode = true;
     //механизм защиты
     private string requiredpassword, password;
     private bool activated=false;
@@ -36,6 +37,10 @@ public class customNetworkHUD : NetworkManager
     {
         singleton = this;
         Instanse = this;
+    }
+    public void RevertDestroyMode() 
+    {
+        DestroyMode = !DestroyMode;
     }
     private void Start()
     {
@@ -62,6 +67,7 @@ public class customNetworkHUD : NetworkManager
                 dwarfeliteranks[i] = int.Parse(file.ReadLine());
                 dwarfprestige[i] = int.Parse(file.ReadLine());
             }
+            accountmoney = int.Parse(file.ReadLine());
             file.Close();
         }
         catch
@@ -95,6 +101,7 @@ public class customNetworkHUD : NetworkManager
             file.WriteLine(dwarfeliteranks[i]);
             file.WriteLine(dwarfprestige[i]);
         }
+        file.WriteLine(accountmoney);
         file.Close();
     }
     public void SpawnAny(int index) {
@@ -154,6 +161,7 @@ public class customNetworkHUD : NetworkManager
         classselector.SetActive(false);
         player.xp = dwarfxp[id];
         player.level = dwarflevels[id];
+        player.money = accountmoney;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }

@@ -363,6 +363,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f7254a29a293c44429d6e70afe66b008, type: 2}
   - {fileID: 11400000, guid: a265eda23c5d6a94e911db5a4f8cfbe4, type: 2}
   animator: {fileID: 2733418021742942555}
+  camShake: 0
   smell: {fileID: 4605632861591889980, guid: de53ccc9a8229244a8b152b171826928, type: 3}
   supplyprefab: {fileID: 4532720323617035512, guid: 862f1778312365740a06d158ca6d2e83,
     type: 3}
@@ -385,6 +386,8 @@ MonoBehaviour:
   UIE: {fileID: 0}
   UIscaner: {fileID: 0}
   UISupplyCost: {fileID: 0}
+  UIweapon: {fileID: 0}
+  UIEscapeMenu: {fileID: 0}
   UIhp: {fileID: 0}
   UIshld: {fileID: 0}
   UIammo: {fileID: 0}
@@ -398,6 +401,14 @@ MonoBehaviour:
   classpic: {fileID: 0}
   UIBlackScreen: {fileID: 0}
   expscreen: {fileID: 0}
+  rankpics:
+  - {fileID: 21300000, guid: be145fe7ec2ddce429c00eb1c8865695, type: 3}
+  - {fileID: 21300000, guid: 8526ce1b40fe0794eb7acd3e4b70c164, type: 3}
+  - {fileID: 21300000, guid: ec9fa43035f3e804d986f2eacd26945d, type: 3}
+  - {fileID: 21300000, guid: 2a4ff58737650c242aa2b0c265701b96, type: 3}
+  - {fileID: 21300000, guid: a38394e4d7c66284c8096febd41001ae, type: 3}
+  - {fileID: 21300000, guid: 8883da281c6262c4dab3111ffe4c8084, type: 3}
+  rank: 0
   kills: 0
   UIPlayerPrefab: {fileID: 784645054620582756, guid: 8d54ed3299fac4f44a7eafe97191cf16,
     type: 3}

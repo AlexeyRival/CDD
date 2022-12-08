@@ -1,0 +1,43 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel Dest
+#include "/MarchTables.compute"
+
+static const int numThreads = 8;
+
+RWStructuredBuffer<float> points;
+RWStructuredBuffer<float4> destroyers;
+RWStructuredBuffer<int> connectors;
+
+int numPointsPerAxis;
+float scale;
+
+
+int indexFromCoord(int x, int y, int z) {
+    return z * numPointsPerAxis * numPointsPerAxis + y * numPointsPerAxis + x;
+}
+
+float dist(float3 a, float3 b) {
+    float dis;
+    float rsx = (a.x - b.x) * (a.x - b.x);
+    float rsy = (a.y - b.y) * (a.y - b.y);
+    float rsz = (a.z - b.z) * (a.z - b.z);
+    dis = sqrt(rsx + rsy + rsz);
+    return dis;
+}
+
+[numthreads(numThreads, numThreads, numThreads)]
+void Dest(int3 id : SV_DispatchThreadID)
+{
+    if (points[indexFromCoord(id.x, id.y, id.z)] < 0) { return; }
+    float3 dxyz = float3((id.x) * scale, (id.y) * scale, (id.z) * scale);
+    for (int i = 0; i < destroyers.Length; ++i)
+    {
+        if (dist(destroyers[i].xyz, dxyz) < destroyers[i].w)
+        {
+            //points[indexFromCoord(id.x, id.y, id.z)] = 6;// ((destroyers[i].w / dist(destroyers[i].xyz, dxyz)));
+            points[indexFromCoord(id.x, id.y, id.z)] -= ((destroyers[i].w / dist(destroyers[i].xyz, dxyz)))*2.5;
+            connectors[3] = 1;
+        }
+    }
+
+}

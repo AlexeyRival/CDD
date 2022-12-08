@@ -102,8 +102,12 @@ public class player : NetworkBehaviour
     private float uiweapontimer;
 
     //уровни и опыт
+    public Sprite[] rankpics;
+    public int rank;
     public static int level;
+    private int locallevel;
     public static int xp;
+    public static int money;
     public static int dwarfclass=-1;
     [SyncVar]
     public int kills=0;
@@ -231,21 +235,22 @@ public class player : NetworkBehaviour
         nickname = nick;
     }
     [Command]
-    void CmdSetClass(int characterclass) {
+    void CmdSetClass(int characterclass, int rank,int level) {
         this.characterclass = characterclass;
-        RpcSetClass(characterclass);
+        RpcSetClass(characterclass, rank,level);
         CmdSetSlot(0);
     }
     [ClientRpc]
-    void RpcSetClass(int characterclass) {
+    void RpcSetClass(int characterclass, int rank,int level) {
         this.characterclass = characterclass;
+        locallevel = level;
         PlayOneShot("event:/greatings", "Parameter 1", characterclass);
         weapon = weapons[characterclass];
         ammo = weapon.ammo;
         allammo = weapon.maxammo;
         grenadecount = grenades[characterclass].GetComponent<grenade>().maxcount;
         speed = classes[characterclass].speed;
-
+        this.rank = rank;
         if (isLocalPlayer)
         {
             dwarfclass = characterclass;
@@ -444,7 +449,9 @@ public class player : NetworkBehaviour
         ui.transform.Translate(ix * 90, 0, 0);
         ui.transform.Find("Name").GetComponent<Text>().text = player.nickname;
         ui.transform.Find("HPbar").GetComponent<Slider>().value = player.hp*0.01f;
-        if(player.characterclass!=-1)ui.GetComponent<Image>().sprite = classes[player.characterclass].icon;
+        ui.transform.Find("Level").GetComponent<Text>().text = player.locallevel.ToString();
+        ui.transform.Find("Rank").GetComponent<Image>().sprite = rankpics[player.rank];
+        if (player.characterclass!=-1)ui.GetComponent<Image>().sprite = classes[player.characterclass].icon;
     }
     private void UpdatePlayer(player player) {
         GameObject ui = UIPlayersbase.transform.Find(player.netId.ToString()).gameObject;
@@ -452,6 +459,8 @@ public class player : NetworkBehaviour
         {
             ui.transform.Find("HPbar").GetComponent<Slider>().value = player.hp * 0.01f;
             ui.transform.Find("Name").GetComponent<Text>().text = player.nickname;
+            ui.transform.Find("Level").GetComponent<Text>().text = player.locallevel.ToString();
+            ui.transform.Find("Rank").GetComponent<Image>().sprite = rankpics[player.rank];
             if (player.characterclass != -1) ui.GetComponent<Image>().sprite = classes[player.characterclass].icon;
         }
     }
@@ -535,7 +544,8 @@ public class player : NetworkBehaviour
         Cursor.visible = false;
         network = GameObject.Find("network").GetComponent<customNetworkHUD>();
         CmdSetNick(network.nickname);
-        CmdSetClass(network.characterclass);
+        rank = network.dwarfprestige[network.characterclass] > 10 ? 4 : (network.dwarfprestige[network.characterclass] > 0 ? 3 : (network.dwarfeliteranks[network.characterclass] > 0 ? network.dwarfeliteranks[network.characterclass] : 0));
+        CmdSetClass(network.characterclass, rank,levels[network.characterclass]);
         CmdDmg(1);
         hpobject.gameObject.SetActive(false);
         UIobject = GameObject.Find("Canvas").transform.Find("UI").gameObject;
@@ -1030,8 +1040,11 @@ public class player : NetworkBehaviour
 
                 //обновление класса при смене
                 if (network.characterclass != characterclass) {
-                    CmdSetClass(network.characterclass);
+                    rank = network.dwarfprestige[network.characterclass] > 10 ? 5 : (network.dwarfprestige[network.characterclass] > 0 ? 4 : (network.dwarfeliteranks[network.characterclass] > 0 ? network.dwarfeliteranks[network.characterclass] : 0));
+                    CmdSetClass(network.characterclass,rank,network.characterclass);
                     classpic.sprite = classes[network.characterclass].icon;
+                    classpic.transform.GetChild(0).GetComponent<Text>().text = network.dwarflevels[network.characterclass].ToString();
+                    classpic.transform.GetChild(1).GetComponent<Image>().sprite = rankpics[rank];
                 }
 
                 //возрождение другого
@@ -1155,9 +1168,9 @@ public class player : NetworkBehaviour
                 }
             }
             else { if (isFade) { isFade = false; } }
-            transform.parent = generator.platform.transform;
-            if (!isTeleported) { 
-                transform.position = generator.platform.transform.GetChild(Random.Range(0,8)).position;
+            if(!generator.isFailure)transform.parent = generator.platform.transform;
+            if (!isTeleported) {
+                transform.position = !generator.isFailure ? generator.platform.transform.GetChild(Random.Range(0, 8)).position : generator.respawnpoint.transform.position;
                 isTeleported = true;
             } 
         }
