@@ -63,6 +63,9 @@ public class Generator : NetworkBehaviour
     public GameObject loading;
     private int localseed;
 
+    //прокачка оружия
+    public GameObject UIweaponUpgrade;
+
     //загрузка
     private float[] playersprogress;
 
@@ -568,7 +571,10 @@ public class Generator : NetworkBehaviour
     }
 
 
-
+    public void OpenWeaponUpgrade() 
+    {
+        UIweaponUpgrade.SetActive(true);
+    }
     public void StartMission()
     {
         isStartGenerate = true;

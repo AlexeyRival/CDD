@@ -39,7 +39,7 @@ public class player : NetworkBehaviour
     private float flarecooldown = 0;
     private int localhp = 101;
     private float magnitude;
-    private bool seeContainer, seeInteraction,classchangeInteraction, gobackinteraction, missionselectorinteraction,supplyinteracton;
+    private bool seeContainer, seeInteraction,classchangeInteraction,upgradeWeaponTerminalInteracton, gobackinteraction, missionselectorinteraction,supplyinteracton;
     private float containercooldown = 0;
     private int tick;
     private float tickf;
@@ -748,6 +748,12 @@ public class player : NetworkBehaviour
                         Cursor.lockState = CursorLockMode.None;
                         Cursor.visible = true;
                     }
+                    if (upgradeWeaponTerminalInteracton)
+                    {
+                        generator.OpenWeaponUpgrade();
+                        Cursor.lockState = CursorLockMode.None;
+                        Cursor.visible = true;
+                    }
                     if (supplyinteracton) 
                     {
                         if (!supplyprogressbar.gameObject.active) 
@@ -961,6 +967,7 @@ public class player : NetworkBehaviour
                 seeContainer = false;
                 supplyinteracton = false;
                 classchangeInteraction = false;
+                upgradeWeaponTerminalInteracton = false;
                 Physics.Raycast(head.transform.position, head.transform.forward, out hit, 6);
                 if (hit.transform)
                 {
@@ -989,6 +996,11 @@ public class player : NetworkBehaviour
                     {
                         seeInteraction = true;
                         classchangeInteraction = true;
+                    }
+                    if (hit.collider.transform.name == "WeaponTerminal")
+                    {
+                        seeInteraction = true;
+                        upgradeWeaponTerminalInteracton = true;
                     }
                     if (hit.collider.transform.CompareTag("Player")&&hit.collider.transform.GetComponent<player>().hp<=0)
                     {

@@ -16,40 +16,65 @@ MonoBehaviour:
   - {fileID: 114035107244104654}
   - {fileID: 114255162754892662}
   EditorEvents:
-  - {fileID: 114590391399213904}
-  - {fileID: 114360398731329772}
-  - {fileID: 114387135625467054}
-  - {fileID: 114471018715914764}
-  - {fileID: 114934253101190828}
-  - {fileID: 114360173964247538}
-  - {fileID: 114273828636626520}
-  - {fileID: 114072261502625250}
-  - {fileID: 114257988832290142}
-  - {fileID: 114930728502505556}
-  - {fileID: 114890256864949382}
-  - {fileID: 114709182056825004}
-  - {fileID: 114541837714507842}
-  - {fileID: 114941186735018466}
-  - {fileID: 114036089977965724}
-  - {fileID: 114293253150889720}
-  - {fileID: 114667283515721722}
-  - {fileID: 114243520976783130}
-  - {fileID: 114402320632416656}
-  - {fileID: 114875423064508446}
-  - {fileID: 114455172142980744}
-  - {fileID: 114888497706468614}
-  - {fileID: 114105606734610588}
-  - {fileID: 114983526335560656}
+  - {fileID: 114975321552443754}
+  - {fileID: 114725634580206756}
+  - {fileID: 114999289751310962}
+  - {fileID: 114085737449345706}
+  - {fileID: 114533145405767160}
+  - {fileID: 114479316940264888}
+  - {fileID: 114476942699098710}
+  - {fileID: 114025653256905054}
+  - {fileID: 114353785865375408}
+  - {fileID: 114163437497295380}
+  - {fileID: 114290256509633268}
+  - {fileID: 114990343572259430}
+  - {fileID: 114452492264778470}
+  - {fileID: 114036012438722738}
+  - {fileID: 114928574177384904}
+  - {fileID: 114297376725320748}
+  - {fileID: 114476635940620774}
+  - {fileID: 114380184249527792}
+  - {fileID: 114236946422323488}
+  - {fileID: 114587701575976352}
+  - {fileID: 114835698296339936}
+  - {fileID: 114929084464454140}
+  - {fileID: 114773975257130598}
+  - {fileID: 114826478903309892}
   EditorParameters:
-  - {fileID: 114274581001642014}
-  - {fileID: 114753117606227264}
+  - {fileID: 114508987099770958}
+  - {fileID: 114033863160834844}
   MasterBanks:
   - {fileID: 114255162754892662}
   StringsBanks:
   - {fileID: 114035107244104654}
-  cacheTime: 638039574045167940
+  cacheTime: 638064484661266752
   cacheVersion: 10
---- !u!114 &114028522909953202
+--- !u!114 &114025653256905054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/weaponfire
+  m_EditorClassIdentifier: 
+  Path: event:/weaponfire
+  guid: 649e99d47ceaaa4fb34117b1949f5dff
+  Banks:
+  - {fileID: 114255162754892662}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 114427735719964612}
+  - {fileID: 114292097896244942}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &114030474884414000
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -59,7 +84,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/whoosh/roomsize
+  m_Name: "parameter:/\u043A\u0440\u0438\u0441\u0442\u0430\u043B\u043B_\u0441\u043B\u043E\u043C\u0430\u043D/roomsize"
+  m_EditorClassIdentifier: 
+  Name: roomsize
+  Min: 0
+  Max: 30
+  Default: 0
+  ID:
+    data1: 2841469272
+    data2: 1074359707
+  Type: 0
+  IsGlobal: 1
+  Exists: 1
+--- !u!114 &114033863160834844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/roomsize
   m_EditorClassIdentifier: 
   Name: roomsize
   Min: 0
@@ -86,12 +133,12 @@ MonoBehaviour:
   Path: "Assets/\u0437\u0432\u0443\u043A\u0438/fmod/0/Build/Desktop/Master.strings.bank"
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638039574045167940
+  lastModified: 638064484661266752
   FileSizes:
   - Name: Desktop
     Value: 2148
   Exists: 1
---- !u!114 &114036089977965724
+--- !u!114 &114036012438722738
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -101,21 +148,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Metal_stomp
+  m_Name: "event:/\u043F\u0435\u0440\u0435\u0437\u0430\u0440\u044F\u0434\u043A\u0430"
   m_EditorClassIdentifier: 
-  Path: event:/Metal_stomp
-  guid: 607986a39d40cc4a95c7a295553e571f
+  Path: "event:/\u043F\u0435\u0440\u0435\u0437\u0430\u0440\u044F\u0434\u043A\u0430"
+  guid: b85e20c52f5fee43839f5446122b6da7
   Banks:
   - {fileID: 114255162754892662}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 114954047069631292}
+  - {fileID: 114422206878998096}
+  - {fileID: 114975497248077218}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &114057021897847522
+--- !u!114 &114038001342227442
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -137,7 +185,7 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 1
---- !u!114 &114062536786730262
+--- !u!114 &114078863683386064
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -147,7 +195,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/weaponfire/roomsize
+  m_Name: parameter:/greatings/roomsize
   m_EditorClassIdentifier: 
   Name: roomsize
   Min: 0
@@ -159,7 +207,7 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 1
   Exists: 1
---- !u!114 &114072261502625250
+--- !u!114 &114085737449345706
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -169,22 +217,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/bugouch
+  m_Name: event:/ouch
   m_EditorClassIdentifier: 
-  Path: event:/bugouch
-  guid: eb30ac449f1cb3418c2dd3a1629caee9
+  Path: event:/ouch
+  guid: 3c23d8727a8b764b89fbbc190f84e236
   Banks:
   - {fileID: 114255162754892662}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 114404007313385414}
-  - {fileID: 114429441234914986}
+  - {fileID: 114559395710200262}
+  - {fileID: 114085890940180020}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &114079292682684764
+--- !u!114 &114085890940180020
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -206,7 +254,29 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 1
   Exists: 1
---- !u!114 &114105606734610588
+--- !u!114 &114147410876370614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/step/roomsize
+  m_EditorClassIdentifier: 
+  Name: roomsize
+  Min: 0
+  Max: 30
+  Default: 0
+  ID:
+    data1: 2841469272
+    data2: 1074359707
+  Type: 0
+  IsGlobal: 1
+  Exists: 1
+--- !u!114 &114163437497295380
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -226,11 +296,11 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 114923951947097420}
+  - {fileID: 114585863808400564}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &114212925642878464
+--- !u!114 &114164081342837134
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -240,7 +310,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: "parameter:/\u043A\u0440\u0438\u0441\u0442\u0430\u043B\u043B_\u0441\u043B\u043E\u043C\u0430\u043D/roomsize"
+  m_Name: "parameter:/\u043D\u0435\u043B\u044C\u0437\u044F/roomsize"
   m_EditorClassIdentifier: 
   Name: roomsize
   Min: 0
@@ -252,7 +322,73 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 1
   Exists: 1
---- !u!114 &114243520976783130
+--- !u!114 &114177323726505924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/whoosh/roomsize
+  m_EditorClassIdentifier: 
+  Name: roomsize
+  Min: 0
+  Max: 30
+  Default: 0
+  ID:
+    data1: 2841469272
+    data2: 1074359707
+  Type: 0
+  IsGlobal: 1
+  Exists: 1
+--- !u!114 &114186577201173562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/whoosh/ID
+  m_EditorClassIdentifier: 
+  Name: ID
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 31927909
+    data2: 488036760
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
+--- !u!114 &114191137705685796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/bugouch/ID
+  m_EditorClassIdentifier: 
+  Name: ID
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 31927909
+    data2: 488036760
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
+--- !u!114 &114236946422323488
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -290,171 +426,12 @@ MonoBehaviour:
   Path: "Assets/\u0437\u0432\u0443\u043A\u0438/fmod/0/Build/Desktop/Master.bank"
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638039574045137942
+  lastModified: 638064484661226748
   FileSizes:
   - Name: Desktop
     Value: 6656576
   Exists: 1
---- !u!114 &114257988832290142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/bugsound
-  m_EditorClassIdentifier: 
-  Path: event:/bugsound
-  guid: 661e230c57ff1a4b94ecf35137d619ba
-  Banks:
-  - {fileID: 114255162754892662}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters:
-  - {fileID: 114535122769777526}
-  MinDistance: 1
-  MaxDistance: 200
-  Length: 1325
---- !u!114 &114268562944668926
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/whoosh/ID
-  m_EditorClassIdentifier: 
-  Name: ID
-  Min: 0
-  Max: 10
-  Default: 0
-  ID:
-    data1: 31927909
-    data2: 488036760
-  Type: 1
-  IsGlobal: 0
-  Exists: 1
---- !u!114 &114273828636626520
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/step
-  m_EditorClassIdentifier: 
-  Path: event:/step
-  guid: b4096eaaa55e6948b569d86faca05035
-  Banks:
-  - {fileID: 114255162754892662}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters:
-  - {fileID: 114339621280444978}
-  MinDistance: 1
-  MaxDistance: 80
-  Length: 245
---- !u!114 &114274581001642014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/roomsize
-  m_EditorClassIdentifier: 
-  Name: roomsize
-  Min: 0
-  Max: 30
-  Default: 0
-  ID:
-    data1: 2841469272
-    data2: 1074359707
-  Type: 0
-  IsGlobal: 1
-  Exists: 1
---- !u!114 &114293253150889720
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/\u0440\u0451\u0432 \u0443\u043B\u044C\u044F"
-  m_EditorClassIdentifier: 
-  Path: "event:/\u0440\u0451\u0432 \u0443\u043B\u044C\u044F"
-  guid: 503daade0cde0541acd88533063be510
-  Banks:
-  - {fileID: 114255162754892662}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 150
-  Length: 0
---- !u!114 &114323983088341816
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: "parameter:/\u043D\u0435\u043B\u044C\u0437\u044F/roomsize"
-  m_EditorClassIdentifier: 
-  Name: roomsize
-  Min: 0
-  Max: 30
-  Default: 0
-  ID:
-    data1: 2841469272
-    data2: 1074359707
-  Type: 0
-  IsGlobal: 1
-  Exists: 1
---- !u!114 &114339621280444978
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/step/roomsize
-  m_EditorClassIdentifier: 
-  Name: roomsize
-  Min: 0
-  Max: 30
-  Default: 0
-  ID:
-    data1: 2841469272
-    data2: 1074359707
-  Type: 0
-  IsGlobal: 1
-  Exists: 1
---- !u!114 &114360173964247538
+--- !u!114 &114290256509633268
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -474,36 +451,12 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 114268562944668926}
-  - {fileID: 114028522909953202}
+  - {fileID: 114186577201173562}
+  - {fileID: 114177323726505924}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &114360398731329772
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/click
-  m_EditorClassIdentifier: 
-  Path: event:/click
-  guid: 2e15001777e33a44a4b7a7485462eff8
-  Banks:
-  - {fileID: 114255162754892662}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters:
-  - {fileID: 114687546565378136}
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
---- !u!114 &114368969695258546
+--- !u!114 &114292097896244942
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -513,19 +466,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MC/r
+  m_Name: parameter:/weaponfire/roomsize
   m_EditorClassIdentifier: 
-  Name: r
+  Name: roomsize
   Min: 0
   Max: 30
   Default: 0
   ID:
-    data1: 705995851
-    data2: 2560459214
-  Type: 1
-  IsGlobal: 0
+    data1: 2841469272
+    data2: 1074359707
+  Type: 0
+  IsGlobal: 1
   Exists: 1
---- !u!114 &114387135625467054
+--- !u!114 &114297376725320748
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -545,11 +498,11 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 114689147905854762}
+  - {fileID: 114979501202317420}
   MinDistance: 1
   MaxDistance: 200
   Length: 0
---- !u!114 &114402320632416656
+--- !u!114 &114353785865375408
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -559,87 +512,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/flare
+  m_Name: event:/bugsound
   m_EditorClassIdentifier: 
-  Path: event:/flare
-  guid: 3cba570e2322204d857404db6aea3140
+  Path: event:/bugsound
+  guid: 661e230c57ff1a4b94ecf35137d619ba
   Banks:
   - {fileID: 114255162754892662}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 114964841239820378}
+  - {fileID: 114560502506106146}
   MinDistance: 1
-  MaxDistance: 50
-  Length: 0
---- !u!114 &114404007313385414
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/bugouch/ID
-  m_EditorClassIdentifier: 
-  Name: ID
-  Min: 0
-  Max: 10
-  Default: 0
-  ID:
-    data1: 31927909
-    data2: 488036760
-  Type: 1
-  IsGlobal: 0
-  Exists: 1
---- !u!114 &114406869677933974
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: "parameter:/\u043A\u0440\u0438\u0441\u0442\u0430\u043B\u043B_\u043F\u043E\u0434\u043E\u0431\u0440\u0430\u043D/roomsize"
-  m_EditorClassIdentifier: 
-  Name: roomsize
-  Min: 0
-  Max: 30
-  Default: 0
-  ID:
-    data1: 2841469272
-    data2: 1074359707
-  Type: 0
-  IsGlobal: 1
-  Exists: 1
---- !u!114 &114410510173087566
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/weaponfire/weaponID
-  m_EditorClassIdentifier: 
-  Name: weaponID
-  Min: 0
-  Max: 20
-  Default: 0
-  ID:
-    data1: 1928483724
-    data2: 743105140
-  Type: 1
-  IsGlobal: 0
-  Exists: 1
---- !u!114 &114421689139737762
+  MaxDistance: 200
+  Length: 1325
+--- !u!114 &114375856919105526
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -661,7 +548,31 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 1
   Exists: 1
---- !u!114 &114429441234914986
+--- !u!114 &114380184249527792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/bugstep
+  m_EditorClassIdentifier: 
+  Path: event:/bugstep
+  guid: cf6c33294a6940488a2ab99e830fe7c5
+  Banks:
+  - {fileID: 114255162754892662}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 114375856919105526}
+  MinDistance: 1
+  MaxDistance: 35
+  Length: 0
+--- !u!114 &114422206878998096
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -671,7 +582,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/bugouch/roomsize
+  m_Name: "parameter:/\u043F\u0435\u0440\u0435\u0437\u0430\u0440\u044F\u0434\u043A\u0430/roomsize"
   m_EditorClassIdentifier: 
   Name: roomsize
   Min: 0
@@ -683,56 +594,7 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 1
   Exists: 1
---- !u!114 &114455172142980744
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/\u043D\u0435\u043B\u044C\u0437\u044F"
-  m_EditorClassIdentifier: 
-  Path: "event:/\u043D\u0435\u043B\u044C\u0437\u044F"
-  guid: fbcf4b5ab6824443862cad9f13c9dbca
-  Banks:
-  - {fileID: 114255162754892662}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters:
-  - {fileID: 114323983088341816}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &114471018715914764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/weaponfire
-  m_EditorClassIdentifier: 
-  Path: event:/weaponfire
-  guid: 649e99d47ceaaa4fb34117b1949f5dff
-  Banks:
-  - {fileID: 114255162754892662}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters:
-  - {fileID: 114410510173087566}
-  - {fileID: 114062536786730262}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &114535122769777526
+--- !u!114 &114427735719964612
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -742,19 +604,43 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/bugsound/roomsize
+  m_Name: parameter:/weaponfire/weaponID
   m_EditorClassIdentifier: 
-  Name: roomsize
+  Name: weaponID
   Min: 0
-  Max: 30
+  Max: 20
   Default: 0
   ID:
-    data1: 2841469272
-    data2: 1074359707
-  Type: 0
-  IsGlobal: 1
+    data1: 1928483724
+    data2: 743105140
+  Type: 1
+  IsGlobal: 0
   Exists: 1
---- !u!114 &114541837714507842
+--- !u!114 &114452492264778470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/step
+  m_EditorClassIdentifier: 
+  Path: event:/step
+  guid: b4096eaaa55e6948b569d86faca05035
+  Banks:
+  - {fileID: 114255162754892662}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 114147410876370614}
+  MinDistance: 1
+  MaxDistance: 80
+  Length: 245
+--- !u!114 &114476635940620774
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -777,51 +663,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
---- !u!114 &114574285298365894
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: "parameter:/\u043F\u0435\u0440\u0435\u0437\u0430\u0440\u044F\u0434\u043A\u0430/roomsize"
-  m_EditorClassIdentifier: 
-  Name: roomsize
-  Min: 0
-  Max: 30
-  Default: 0
-  ID:
-    data1: 2841469272
-    data2: 1074359707
-  Type: 0
-  IsGlobal: 1
-  Exists: 1
---- !u!114 &114585358880049136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/greatings/roomsize
-  m_EditorClassIdentifier: 
-  Name: roomsize
-  Min: 0
-  Max: 30
-  Default: 0
-  ID:
-    data1: 2841469272
-    data2: 1074359707
-  Type: 0
-  IsGlobal: 1
-  Exists: 1
---- !u!114 &114590391399213904
+--- !u!114 &114476942699098710
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -831,22 +673,134 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/greatings
+  m_Name: event:/Metal_stomp
   m_EditorClassIdentifier: 
-  Path: event:/greatings
-  guid: eef320d686d0374eb53055e531a0b0b4
+  Path: event:/Metal_stomp
+  guid: 607986a39d40cc4a95c7a295553e571f
   Banks:
   - {fileID: 114255162754892662}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 114738471726611816}
-  - {fileID: 114585358880049136}
+  - {fileID: 114505911290018278}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &114653231513744690
+--- !u!114 &114479316940264888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/\u0440\u0451\u0432 \u0443\u043B\u044C\u044F"
+  m_EditorClassIdentifier: 
+  Path: "event:/\u0440\u0451\u0432 \u0443\u043B\u044C\u044F"
+  guid: 503daade0cde0541acd88533063be510
+  Banks:
+  - {fileID: 114255162754892662}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 150
+  Length: 0
+--- !u!114 &114485651017763816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/click/ClickID
+  m_EditorClassIdentifier: 
+  Name: ClickID
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 1146872931
+    data2: 1513536983
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
+--- !u!114 &114505911290018278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Metal_stomp/roomsize
+  m_EditorClassIdentifier: 
+  Name: roomsize
+  Min: 0
+  Max: 30
+  Default: 0
+  ID:
+    data1: 2841469272
+    data2: 1074359707
+  Type: 0
+  IsGlobal: 1
+  Exists: 1
+--- !u!114 &114508987099770958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Power
+  m_EditorClassIdentifier: 
+  Name: Power
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3600157921
+    data2: 626864070
+  Type: 1
+  IsGlobal: 1
+  Exists: 1
+--- !u!114 &114533145405767160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/flare
+  m_EditorClassIdentifier: 
+  Path: event:/flare
+  guid: 3cba570e2322204d857404db6aea3140
+  Banks:
+  - {fileID: 114255162754892662}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 114707593306705746}
+  MinDistance: 1
+  MaxDistance: 50
+  Length: 0
+--- !u!114 &114559395710200262
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -868,7 +822,51 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 1
---- !u!114 &114667283515721722
+--- !u!114 &114560502506106146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/bugsound/roomsize
+  m_EditorClassIdentifier: 
+  Name: roomsize
+  Min: 0
+  Max: 30
+  Default: 0
+  ID:
+    data1: 2841469272
+    data2: 1074359707
+  Type: 0
+  IsGlobal: 1
+  Exists: 1
+--- !u!114 &114585863808400564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/bigbugsound/roomsize
+  m_EditorClassIdentifier: 
+  Name: roomsize
+  Min: 0
+  Max: 30
+  Default: 0
+  ID:
+    data1: 2841469272
+    data2: 1074359707
+  Type: 0
+  IsGlobal: 1
+  Exists: 1
+--- !u!114 &114587701575976352
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -891,7 +889,309 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 250
   Length: 0
---- !u!114 &114681453110735484
+--- !u!114 &114707593306705746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/flare/roomsize
+  m_EditorClassIdentifier: 
+  Name: roomsize
+  Min: 0
+  Max: 30
+  Default: 0
+  ID:
+    data1: 2841469272
+    data2: 1074359707
+  Type: 0
+  IsGlobal: 1
+  Exists: 1
+--- !u!114 &114722482225851634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: "parameter:/\u043A\u0440\u0438\u0441\u0442\u0430\u043B\u043B_\u043F\u043E\u0434\u043E\u0431\u0440\u0430\u043D/roomsize"
+  m_EditorClassIdentifier: 
+  Name: roomsize
+  Min: 0
+  Max: 30
+  Default: 0
+  ID:
+    data1: 2841469272
+    data2: 1074359707
+  Type: 0
+  IsGlobal: 1
+  Exists: 1
+--- !u!114 &114725634580206756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/\u043A\u0440\u0438\u0441\u0442\u0430\u043B\u043B_\u0441\u043B\u043E\u043C\u0430\u043D"
+  m_EditorClassIdentifier: 
+  Path: "event:/\u043A\u0440\u0438\u0441\u0442\u0430\u043B\u043B_\u0441\u043B\u043E\u043C\u0430\u043D"
+  guid: 2bba25ac150539478fce5600e6f86748
+  Banks:
+  - {fileID: 114255162754892662}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 114030474884414000}
+  MinDistance: 1
+  MaxDistance: 45
+  Length: 0
+--- !u!114 &114730875698559024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/greatings/Parameter 1
+  m_EditorClassIdentifier: 
+  Name: Parameter 1
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 282011033
+    data2: 7535372
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
+--- !u!114 &114764572704228376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MC/r
+  m_EditorClassIdentifier: 
+  Name: r
+  Min: 0
+  Max: 30
+  Default: 0
+  ID:
+    data1: 705995851
+    data2: 2560459214
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
+--- !u!114 &114773975257130598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/\u043C\u0443\u0437\u044B\u043A\u0430"
+  m_EditorClassIdentifier: 
+  Path: "event:/\u043C\u0443\u0437\u044B\u043A\u0430"
+  guid: f536300035f2474fab35b76d153b18fb
+  Banks:
+  - {fileID: 114255162754892662}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 114038001342227442}
+  - {fileID: 114782572488520322}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &114782572488520322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: "parameter:/\u043C\u0443\u0437\u044B\u043A\u0430/Power"
+  m_EditorClassIdentifier: 
+  Name: Power
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3600157921
+    data2: 626864070
+  Type: 1
+  IsGlobal: 1
+  Exists: 1
+--- !u!114 &114826478903309892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/\u043D\u0435\u043B\u044C\u0437\u044F"
+  m_EditorClassIdentifier: 
+  Path: "event:/\u043D\u0435\u043B\u044C\u0437\u044F"
+  guid: fbcf4b5ab6824443862cad9f13c9dbca
+  Banks:
+  - {fileID: 114255162754892662}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 114164081342837134}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &114835698296339936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/bugouch
+  m_EditorClassIdentifier: 
+  Path: event:/bugouch
+  guid: eb30ac449f1cb3418c2dd3a1629caee9
+  Banks:
+  - {fileID: 114255162754892662}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 114958224575253096}
+  - {fileID: 114191137705685796}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &114928574177384904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MC
+  m_EditorClassIdentifier: 
+  Path: event:/MC
+  guid: c0d51d3e38b23a428829d07765bfd1d1
+  Banks:
+  - {fileID: 114255162754892662}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 114764572704228376}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &114929084464454140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/greatings
+  m_EditorClassIdentifier: 
+  Path: event:/greatings
+  guid: eef320d686d0374eb53055e531a0b0b4
+  Banks:
+  - {fileID: 114255162754892662}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 114078863683386064}
+  - {fileID: 114730875698559024}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &114958224575253096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/bugouch/roomsize
+  m_EditorClassIdentifier: 
+  Name: roomsize
+  Min: 0
+  Max: 30
+  Default: 0
+  ID:
+    data1: 2841469272
+    data2: 1074359707
+  Type: 0
+  IsGlobal: 1
+  Exists: 1
+--- !u!114 &114975321552443754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/bugattack
+  m_EditorClassIdentifier: 
+  Path: event:/bugattack
+  guid: 076ba61ae36f9641854a657a4b0fcf6e
+  Banks:
+  - {fileID: 114255162754892662}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &114975497248077218
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -914,29 +1214,7 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 1
---- !u!114 &114687546565378136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/click/ClickID
-  m_EditorClassIdentifier: 
-  Name: ClickID
-  Min: 0
-  Max: 2
-  Default: 0
-  ID:
-    data1: 1146872931
-    data2: 1513536983
-  Type: 1
-  IsGlobal: 0
-  Exists: 1
---- !u!114 &114689147905854762
+--- !u!114 &114979501202317420
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -958,7 +1236,7 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 1
   Exists: 1
---- !u!114 &114709182056825004
+--- !u!114 &114990343572259430
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -978,55 +1256,11 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 114406869677933974}
+  - {fileID: 114722482225851634}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &114738471726611816
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/greatings/Parameter 1
-  m_EditorClassIdentifier: 
-  Name: Parameter 1
-  Min: 0
-  Max: 8
-  Default: 0
-  ID:
-    data1: 282011033
-    data2: 7535372
-  Type: 1
-  IsGlobal: 0
-  Exists: 1
---- !u!114 &114753117606227264
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Power
-  m_EditorClassIdentifier: 
-  Name: Power
-  Min: 0
-  Max: 10
-  Default: 0
-  ID:
-    data1: 3600157921
-    data2: 626864070
-  Type: 1
-  IsGlobal: 1
-  Exists: 1
---- !u!114 &114875423064508446
+--- !u!114 &114999289751310962
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1036,251 +1270,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/\u043F\u0435\u0440\u0435\u0437\u0430\u0440\u044F\u0434\u043A\u0430"
+  m_Name: event:/click
   m_EditorClassIdentifier: 
-  Path: "event:/\u043F\u0435\u0440\u0435\u0437\u0430\u0440\u044F\u0434\u043A\u0430"
-  guid: b85e20c52f5fee43839f5446122b6da7
+  Path: event:/click
+  guid: 2e15001777e33a44a4b7a7485462eff8
   Banks:
   - {fileID: 114255162754892662}
   IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters:
-  - {fileID: 114574285298365894}
-  - {fileID: 114681453110735484}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &114888497706468614
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/MC
-  m_EditorClassIdentifier: 
-  Path: event:/MC
-  guid: c0d51d3e38b23a428829d07765bfd1d1
-  Banks:
-  - {fileID: 114255162754892662}
-  IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 114368969695258546}
+  - {fileID: 114485651017763816}
   MinDistance: 0
   MaxDistance: 0
-  Length: 0
---- !u!114 &114890256864949382
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/\u043A\u0440\u0438\u0441\u0442\u0430\u043B\u043B_\u0441\u043B\u043E\u043C\u0430\u043D"
-  m_EditorClassIdentifier: 
-  Path: "event:/\u043A\u0440\u0438\u0441\u0442\u0430\u043B\u043B_\u0441\u043B\u043E\u043C\u0430\u043D"
-  guid: 2bba25ac150539478fce5600e6f86748
-  Banks:
-  - {fileID: 114255162754892662}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters:
-  - {fileID: 114212925642878464}
-  MinDistance: 1
-  MaxDistance: 45
-  Length: 0
---- !u!114 &114923951947097420
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/bigbugsound/roomsize
-  m_EditorClassIdentifier: 
-  Name: roomsize
-  Min: 0
-  Max: 30
-  Default: 0
-  ID:
-    data1: 2841469272
-    data2: 1074359707
-  Type: 0
-  IsGlobal: 1
-  Exists: 1
---- !u!114 &114930728502505556
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/bugstep
-  m_EditorClassIdentifier: 
-  Path: event:/bugstep
-  guid: cf6c33294a6940488a2ab99e830fe7c5
-  Banks:
-  - {fileID: 114255162754892662}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters:
-  - {fileID: 114421689139737762}
-  MinDistance: 1
-  MaxDistance: 35
-  Length: 0
---- !u!114 &114934253101190828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/ouch
-  m_EditorClassIdentifier: 
-  Path: event:/ouch
-  guid: 3c23d8727a8b764b89fbbc190f84e236
-  Banks:
-  - {fileID: 114255162754892662}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters:
-  - {fileID: 114653231513744690}
-  - {fileID: 114079292682684764}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &114941186735018466
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/\u043C\u0443\u0437\u044B\u043A\u0430"
-  m_EditorClassIdentifier: 
-  Path: "event:/\u043C\u0443\u0437\u044B\u043A\u0430"
-  guid: f536300035f2474fab35b76d153b18fb
-  Banks:
-  - {fileID: 114255162754892662}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters:
-  - {fileID: 114057021897847522}
-  - {fileID: 114953125398005500}
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
---- !u!114 &114953125398005500
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: "parameter:/\u043C\u0443\u0437\u044B\u043A\u0430/Power"
-  m_EditorClassIdentifier: 
-  Name: Power
-  Min: 0
-  Max: 10
-  Default: 0
-  ID:
-    data1: 3600157921
-    data2: 626864070
-  Type: 1
-  IsGlobal: 1
-  Exists: 1
---- !u!114 &114954047069631292
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Metal_stomp/roomsize
-  m_EditorClassIdentifier: 
-  Name: roomsize
-  Min: 0
-  Max: 30
-  Default: 0
-  ID:
-    data1: 2841469272
-    data2: 1074359707
-  Type: 0
-  IsGlobal: 1
-  Exists: 1
---- !u!114 &114964841239820378
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/flare/roomsize
-  m_EditorClassIdentifier: 
-  Name: roomsize
-  Min: 0
-  Max: 30
-  Default: 0
-  ID:
-    data1: 2841469272
-    data2: 1074359707
-  Type: 0
-  IsGlobal: 1
-  Exists: 1
---- !u!114 &114983526335560656
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/bugattack
-  m_EditorClassIdentifier: 
-  Path: event:/bugattack
-  guid: 076ba61ae36f9641854a657a4b0fcf6e
-  Banks:
-  - {fileID: 114255162754892662}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
   Length: 0
