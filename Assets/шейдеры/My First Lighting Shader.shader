@@ -12,9 +12,10 @@
 
 
 	SubShader {
-	Tags{ "RenderType" = "Opaque" "Queue" = "Geometry-3" }
+	Tags{ "RenderType" = "Opaque" "Queue" = "Geometry" }
 
 		Pass {
+			ZWrite On
 			Tags {
 				"LightMode" = "ForwardBase"
 			}
@@ -41,7 +42,7 @@
 			}
 
 			Blend One One
-			ZWrite Off
+			ZWrite On
 
 			CGPROGRAM
 

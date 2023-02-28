@@ -10,15 +10,11 @@ public class AIDirector : NetworkBehaviour
     public Generator generator;
     public MissionMenuController missioncontroller;
     public difficulty currentdifficulty;
-    public Slider bossbar;
     public bool moved, debugMode;
     private const string version = "Дионис";
     public float time, swarmmeter;
     private int phase = 0;
     private bool isBossSpawn;
-    private GameObject thisboss;
-    [SyncVar]
-    private float bosshp=0f;
     public void SpawnSmallBugs()
     {
         RaycastHit hit;

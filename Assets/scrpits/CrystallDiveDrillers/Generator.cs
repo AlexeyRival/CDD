@@ -837,7 +837,7 @@ public class Generator : NetworkBehaviour
         //biommat.SetTexture("3D",biomemap);
         for (int i = 0; i < manager.turboMarchings.Length; ++i) 
         {
-            manager.turboMarchings[i].gameObject.GetComponent<Renderer>().material = mat;
+        //    manager.turboMarchings[i].gameObject.GetComponent<Renderer>().material = mat;
         }
         yield return new WaitForEndOfFrame();
     }

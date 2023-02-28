@@ -407,7 +407,8 @@ public class TurboMarching : MonoBehaviour
             //print(mesh.triangles.Length);
             mesh.RecalculateTangents();
             mesh.RecalculateNormals();
-            mesh.RecalculateBounds();
+            //mesh.RecalculateBounds();
+            mesh.bounds = new Bounds(new Vector3(4.875f, 4.875f, 4.875f), new Vector3(9.75f, 9.75f, 9.75f));
 
             filter.mesh = mesh;
             collider.sharedMesh = mesh;
@@ -552,9 +553,28 @@ public class TurboMarching : MonoBehaviour
                 Debug.DrawLine(octos[startid].position + new Vector3(octos[startid].size*0.5f, octos[startid].size*0.5f, -octos[startid].size*0.5f), octos[startid].position + new Vector3(octos[startid].size*0.5f, octos[startid].size*0.5f, octos[startid].size*0.5f), Color.green, 10f);
                 Debug.DrawLine(octos[startid].position + new Vector3(octos[startid].size*0.5f, octos[startid].size*0.5f, octos[startid].size*0.5f), octos[startid].position + new Vector3(-octos[startid].size*0.5f, -octos[startid].size*0.5f, -octos[startid].size*0.5f), Color.green, 10f);
         }
-       // path.Add(octos[startid].position);
-       // path.Add(octos[minid].position);
-        
+        // path.Add(octos[startid].position);
+        // path.Add(octos[minid].position);
+
+        if (minid != -1 && startid != -1) 
+        {
+            for (int k = 0; k < 10; ++k)
+            {
+                int mid = -1;
+                min = 9999f;
+                path.Add(octos[startid].position);
+                for (int i = 0; i < octos.Count; ++i)
+                {
+                    if ((octos[i].position- to).sqrMagnitude < (octos[startid].position- to).sqrMagnitude && (octos[i].position- octos[startid].position).sqrMagnitude < min)
+                    {
+                        min = (octos[i].position - octos[startid].position).sqrMagnitude;
+                        mid = i;
+                    }
+                }
+                if (mid != -1) { startid = mid; } else { break; }
+            }
+        }
+/*
         if (minid != -1&&startid!=-1)
         {
             for (int k = 0; k < 10; ++k)
@@ -576,7 +596,7 @@ public class TurboMarching : MonoBehaviour
         else 
         {
             //throw new System.Exception("PathNotFoundException, лол");
-        }/**/
+        }*/
         return path;
     }
     private void OnDrawGizmos()
@@ -604,20 +624,27 @@ public class TurboMarching : MonoBehaviour
             }*/
             
         }
-        if (Application.isEditor) if (updateconnectionslocal!=updateconnections) {
-                updateconnectionslocal = updateconnections;
-                filter = GetComponent<MeshFilter>();
-                collider = GetComponent<MeshCollider>();
+        if (Application.isEditor)
+        {
+            Gizmos.color = new Color(0.6f, 0.1f, 0.1f, 0.3f);
+            Gizmos.DrawCube(transform.position + new Vector3(5, 5, 5), new Vector3(10, 10, 10));
+         //   if (updateconnectionslocal != updateconnections)
+            {
+           //     updateconnectionslocal = updateconnections;
+           //     filter = GetComponent<MeshFilter>();
+           //     collider = GetComponent<MeshCollider>();
             }
+        }
         if (Application.isEditor&&isDebug)
         {
             for (int i = 0; i < octos.Count; ++i) 
             {
+                //Gizmos.color = octos[i].isContain ? new Color(1,0,0,0.5f) : new Color(1, 1/(octos[i].generation*0.75f), 1, 0.25f);
+                //Gizmos.DrawWireCube(octos[i].position, new Vector3(octos[i].size, octos[i].size, octos[i].size));
                 Gizmos.color = octos[i].isContain ? new Color(1,0,0,0.5f) : new Color(1, 1/(octos[i].generation*0.75f), 1, 0.5f);
-                Gizmos.DrawWireCube(octos[i].position, new Vector3(octos[i].size, octos[i].size, octos[i].size));
                 if (octos[i].parent != null) 
                 {
-              //      Gizmos.DrawLine(octos[i].position, octos[i].parent.position);
+                    Gizmos.DrawLine(octos[i].position, octos[i].parent.position);
                 }
             }
           //  bool isSelected = Selection.Contains(gameObject);
@@ -671,6 +698,8 @@ public class TurboMarching : MonoBehaviour
         public bool isContain;
         public bool isChecked;
         public bool haveChild;
+        public int childCount;
+        public List<OctoTree> childs;
 
         public OctoTree(int generation, Vector3 position, float size, bool isContain)
         {
@@ -678,6 +707,7 @@ public class TurboMarching : MonoBehaviour
             this.position = position;
             this.size = size;
             this.isContain = isContain;
+            childs = new List<OctoTree>();
         }
         public OctoTree(int generation, Vector3 position, float size, bool isContain, OctoTree parent)
         {
@@ -686,24 +716,29 @@ public class TurboMarching : MonoBehaviour
             this.size = size;
             this.isContain = isContain;
             this.parent = parent;
+            childs = new List<OctoTree>();
         }
         public List<OctoTree> Subdevide() 
         {
             haveChild = true;
-            List<OctoTree> outs = new List<OctoTree>();
+            childs = new List<OctoTree>();
             float s = size * 0.25f;
             float c = size * 0.5f;
-            outs.Add(new OctoTree(generation + 1, position + new Vector3(s, s, s), c, false,this));
-            outs.Add(new OctoTree(generation + 1, position + new Vector3(-s, s, s), c, false, this));
-            outs.Add(new OctoTree(generation + 1, position + new Vector3(s, s, -s), c, false, this));
-            outs.Add(new OctoTree(generation + 1, position + new Vector3(-s, s, -s), c, false, this));
+            childs.Add(new OctoTree(generation + 1, position + new Vector3(s, s, s), c, false,this));
+            childs.Add(new OctoTree(generation + 1, position + new Vector3(-s, s, s), c, false, this));
+            childs.Add(new OctoTree(generation + 1, position + new Vector3(s, s, -s), c, false, this));
+            childs.Add(new OctoTree(generation + 1, position + new Vector3(-s, s, -s), c, false, this));
 
-            outs.Add(new OctoTree(generation + 1, position + new Vector3(s, -s, s), c, false, this));
-            outs.Add(new OctoTree(generation + 1, position + new Vector3(-s, -s, s), c, false, this));
-            outs.Add(new OctoTree(generation + 1, position + new Vector3(s, -s, -s), c, false, this));
-            outs.Add(new OctoTree(generation + 1, position + new Vector3(-s, -s, -s), c, false, this));
-
-            return outs;
+            childs.Add(new OctoTree(generation + 1, position + new Vector3(s, -s, s), c, false, this));
+            childs.Add(new OctoTree(generation + 1, position + new Vector3(-s, -s, s), c, false, this));
+            childs.Add(new OctoTree(generation + 1, position + new Vector3(s, -s, -s), c, false, this));
+            childs.Add(new OctoTree(generation + 1, position + new Vector3(-s, -s, -s), c, false, this));
+            for (int i = 0; i < childs.Count; ++i) 
+            {
+                childs[i].parent = this;
+            }
+            childCount = childs.Count;
+            return childs;
         }
     }
     public static readonly Vector3[] neighborsTable = {
