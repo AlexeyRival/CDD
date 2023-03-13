@@ -14,7 +14,6 @@ public class AIDirector : NetworkBehaviour
     private const string version = "Дионис";
     public float time, swarmmeter;
     private int phase = 0;
-    private bool isBossSpawn;
     public void SpawnSmallBugs()
     {
         RaycastHit hit;
@@ -132,10 +131,6 @@ public class AIDirector : NetworkBehaviour
                 }
                 if (!generator.isGeneratingCompleted) { moved = false;ResetAll(); }
             }
-        }
-        else 
-        {
-            if (isBossSpawn) { isBossSpawn = false; bossbar.gameObject.SetActive(false); }
         }
     }
     private void OnGUI()

@@ -35,7 +35,6 @@ public class bug : NetworkBehaviour
     private float bfr;
     private RaycastHit hit;
     private float spd;
-    private Vector3 middlepoint;
     private float dropHeight = 4, stepTrashold = 1f;
     public float visiontimer;
     [SyncVar]
@@ -48,7 +47,6 @@ public class bug : NetworkBehaviour
     private int localhp = 100;
     private float spawnedtimer;
     private float lastdamage;
-    private bool isSpawn;
     private int soundtimer;
     private HashSet<int> infos;
     private int i, ii;
@@ -76,6 +74,7 @@ public class bug : NetworkBehaviour
             NetworkServer.Spawn(ob);
         }
     }
+    #region получение урона
     [Command]
     private void CmdDmg(int dmg) {
         hp -= dmg;
@@ -95,13 +94,11 @@ public class bug : NetworkBehaviour
         transform.Translate(0.01f * Random.Range(-1f * dmg, 1f * dmg), 0, 0.01f * Random.Range(-1f * dmg, 1f * dmg));
     //    if(isServer)CmdDmg(dmg);
     }
-    private int publicdmg;
-    private GameObject publiccollider;
     public void PublicDmg(int dmg, GameObject collider) {
-        publicdmg = dmg;
-        publiccollider = collider;
         Dmg(dmg, collider);
     }
+    #endregion
+    #region ragdoll
     private void DropAll()
     {
         hpbar.gameObject.SetActive(false);
@@ -141,25 +138,25 @@ public class bug : NetworkBehaviour
             DropChild(trans.GetChild(i));
         }
     }
+    #endregion
     private void SetLeg(GameObject leg, Vector3 vec, Vector3 startpoint, float height)
     {
-
+        return;
         bfr = Mathf.Sin(Vector3.Distance(startpoint, vec)*2f * Mathf.PI) * 1f + height;//*0.5f
         leg.transform.LookAt(new Vector3(vec.x, vec.y + bfr, vec.z));
         leg.transform.Rotate(-90, 90, 90);
     }
     private void SetFoot(GameObject foot, Vector3 vec)
     {
+        return;
         foot.transform.LookAt(vec);
         foot.transform.Rotate(-90, 90, 90);
     }
-    private void SetFoot(GameObject foot, Vector3 vec, Vector3 rotator)
+    //TODO ВСЁ ВЕРНУТЬ
+   private Vector3 SlerpLeg(Vector3 startpoint, Vector3 targetpoint, Vector3 vec, out bool locker, float speed)
     {
-        foot.transform.LookAt(vec);
-        foot.transform.Rotate(rotator);
-    }
-    private Vector3 SlerpLeg(Vector3 startpoint, Vector3 targetpoint, Vector3 vec, out bool locker, float speed)
-    {
+        locker = false;
+        return startpoint;
         if (Vector3.Distance(startpoint, vec) > 0.001f)
         {
             locker = true;
@@ -205,14 +202,9 @@ public class bug : NetworkBehaviour
     }
     void Update()
     {
-
-        //if (!isSpawn) { if (spawnedtimer > 0f) { spawnedtimer -= Time.deltaTime; transform.Translate(0, 0, Time.deltaTime*2); return; } else { isSpawn = true;transform.Rotate(90, 0, 0); } }
         transform.rotation = Quaternion.Lerp(transform.rotation, rotator.rotation, 3f * Time.deltaTime);//2
         if (isStartWalking) {
             if (currentpoint == path.Count-1) { isStartWalking = false; return; }
-
-            //transform.Translate(0, -Time.deltaTime * scale, 0);
-            //rotator.LookAt(path[currentpoint]);
             if (Physics.Raycast(transform.position, path[currentpoint]-transform.position, out hit,2f))
             {
                 rotator.LookAt(hit.point);
@@ -222,8 +214,6 @@ public class bug : NetworkBehaviour
             {
                 rotator.LookAt(path[currentpoint]);
             }
-            //rotator.transform.rotation = Quaternion.Slerp(rotator.transform.rotation, Quaternion.LookRotation(path[currentpoint]-transform.position), 2f);
-            //rotator.Rotate(-20,0,0);
 
             if (Quaternion.Angle(transform.rotation,rotator.rotation)<90)
             { 
@@ -277,6 +267,7 @@ public class bug : NetworkBehaviour
                                     break;
                                 }
                             }
+                            if (!target) { visiontimer = Random.Range(0f, .125f); }
                             if (false)// (!target)
                             {
                                 for (int i = 0; i < GameObject.FindGameObjectsWithTag("Player").Length; ++i)
@@ -433,8 +424,6 @@ public class bug : NetworkBehaviour
                 {
                     if (!isAttack) { isAttack = true; if (isServer) { CmdAttack(0); } }
                     back.transform.Translate(0, Time.deltaTime * -3.6f, 0);
-                    //jaw_up.transform.Rotate(Time.deltaTime * 100, 0, 0);
-                    //jaw_down.transform.Rotate(Time.deltaTime * -100, 0, 0);
                 }
                 else
                 {
@@ -665,14 +654,6 @@ public class bug : NetworkBehaviour
     private void PlayOneShot(string eventname)
     {
         FMOD.Studio.EventInstance instance = FMODUnity.RuntimeManager.CreateInstance(eventname);
-        instance.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
-        instance.start();
-        instance.release();
-    }
-    private void PlayOneShot(string eventname, string paramname, int paramvalue)
-    {
-        FMOD.Studio.EventInstance instance = FMODUnity.RuntimeManager.CreateInstance(eventname);
-        instance.setParameterByName(paramname, paramvalue);
         instance.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
         instance.start();
         instance.release();

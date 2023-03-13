@@ -107,6 +107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   filter: {fileID: 7847407837559501086}
+  renderer: {fileID: 7847407837559501057}
   collider: {fileID: 7847407837559501087}
   shader: {fileID: 7200000, guid: 25a06729918b8834f9b653839aeed80c, type: 3}
   destroyerShader: {fileID: 7200000, guid: 7b05bb6dfee504845bad3408655c1a17, type: 3}

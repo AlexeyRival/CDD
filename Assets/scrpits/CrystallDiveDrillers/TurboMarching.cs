@@ -8,6 +8,7 @@ public class TurboMarching : MonoBehaviour
 
     //необходимое
     public MeshFilter filter;
+    public MeshRenderer renderer;
     public MeshCollider collider;
     public ComputeShader shader, destroyerShader, EnterpriseShader, optshader;
     public int sizeXYZ = 80;
@@ -35,6 +36,9 @@ public class TurboMarching : MonoBehaviour
     public bool isChecked;
     public float weight;
 
+    private bool flipflop;
+    private float fliptimer;
+
     //октодеревья
     private const int maxgenerations = 5;
     public List<OctoTree> octos = new List<OctoTree>();
@@ -48,6 +52,7 @@ public class TurboMarching : MonoBehaviour
 
     //ссылки на всю траву и прочие объекты
     public List<GPUInstancer.ObjData> decorations;
+    private const int THREADGROUPSIZE = 8;
 
     public void Start()
     {
@@ -189,7 +194,7 @@ public class TurboMarching : MonoBehaviour
         tunnelpoints.AddRange(cavepoints);
         Vector4[] arr = tunnelpoints.ToArray();
         TurboUpdate(Generator.center, 35, arr,generator.canion);
-        UpdateMesh();
+        UpdateMesh(true);
         //int l = walkpoints.Length;
         float n,fn;
         RaycastHit hit;
@@ -286,8 +291,9 @@ public class TurboMarching : MonoBehaviour
         if (triCountBuffer != null) triCountBuffer.Dispose();
         if (triangleBuffer != null) triangleBuffer.Dispose();
     }
-    public void UpdateMesh() { UpdateMesh(new Vector4[0]); }
-    public void UpdateMesh(Vector4[] destroyers)
+    public void UpdateMesh(bool updateNav) { UpdateMesh(new Vector4[0],updateNav); }
+    public void UpdateMesh(Vector4[] destroyers) { UpdateMesh(destroyers, true); }
+    public void UpdateMesh(Vector4[] destroyers,bool updateNav)
     {
         bool justup=false;
         int numPoints = sizeXYZ * sizeXYZ * sizeXYZ;
@@ -319,11 +325,11 @@ public class TurboMarching : MonoBehaviour
             }
         }
         destroybuffer = new ComputeBuffer(destroyers.Length, sizeof(float) * 4, ComputeBufferType.Raw);
-        int threadGroupSize = 8;
+        
 
         Mesh mesh = new Mesh();
 
-        int numThreadsPerAxis = Mathf.CeilToInt(numVoxelsPerAxis / (float)threadGroupSize);
+        int numThreadsPerAxis = Mathf.CeilToInt(numVoxelsPerAxis / (float)THREADGROUPSIZE);
         bool changed = false;
         //int numThreadsPerAxis = 8;
         int _kernelindex;
@@ -393,13 +399,16 @@ public class TurboMarching : MonoBehaviour
             var vertices = new Vector3[numTris * 3];
             var meshTriangles = new int[numTris * 3];
 
+            int li;
             for (int i = 0; i < numTris; i++)
             {
-                for (int j = 0; j < 3; j++)
-                {
-                    meshTriangles[i * 3 + j] = i * 3 + j;
-                    vertices[i * 3 + j] = tris[i][j];
-                }
+                li = i * 3;
+                    meshTriangles[li] = li;
+                    meshTriangles[li + 1] = li + 1;
+                    meshTriangles[li + 2] = li + 2;
+                    vertices[li] = tris[i][0];
+                    vertices[li + 1] = tris[i][1];
+                    vertices[li + 2] = tris[i][2];
             }
             mesh.vertices = vertices;
             //mesh.color TODO !!!!!!!
@@ -436,7 +445,7 @@ public class TurboMarching : MonoBehaviour
             destroybuffer.Release();
             destroybuffer.Dispose();
         }
-        UpdateOctos();
+        if(!updateNav)UpdateOctos();
     }
 
     private void PlayOneShot(string eventname)
@@ -769,4 +778,29 @@ public class TurboMarching : MonoBehaviour
         new Vector3(0.5f,0.5f,0),
         new Vector3(0.5f,0.5f,0.5f)
     };
+    public void FlipUpdate()
+    {
+        if (!flipflop)
+        {
+            if (!renderer.isVisible)
+            {
+                fliptimer += Time.deltaTime;
+                if (fliptimer > 10)
+                {
+                    filter.mesh = null;
+                    collider.sharedMesh = null;
+                    flipflop = true;
+                    fliptimer = 0;
+                }
+            }
+        }
+        else 
+        {
+            if (renderer.isVisible) 
+            {
+                UpdateMesh(false);
+                flipflop = false;
+            }
+        }
+    }
 }

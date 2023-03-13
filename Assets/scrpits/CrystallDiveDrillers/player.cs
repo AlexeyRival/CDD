@@ -7,7 +7,8 @@ using UnityEngine.UI;
 public class player : NetworkBehaviour
 {
     public GameObject head,firstcamera,diecamera,slot1,slot10;
-    public GameObject rotator, fog, supplymarker;
+    public GameObject rotator, supplymarker;
+    public Fog fog;
     public Camera cam;
 
     //оружие
@@ -142,7 +143,7 @@ public class player : NetworkBehaviour
         //for (int i = 0; i < 5; ++i)
         {
             GameObject ob = Instantiate(sphereDestroyer, pos, Quaternion.identity);
-            Destroy(ob, 0.1f);
+            Destroy(ob, 0.1f);//.1f
             NetworkServer.Spawn(ob);
         }
     }
@@ -409,7 +410,7 @@ public class player : NetworkBehaviour
     public void Fire() {
         if (weapon.haveRotor) 
         {
-            slot1.transform.GetChild(characterclass + 1).GetChild(1).Rotate(45,0,0);
+            slot1.transform.GetChild(characterclass + 1).GetChild(1).Rotate(0,0,30);
         }
 
         CmdMakeSoundArg("event:/weaponfire", "weaponID", weapon.sound);
@@ -1191,7 +1192,7 @@ public class player : NetworkBehaviour
             if (generator.isStart&&isLocalPlayer) { 
                 CmdSetProgress(generator.GetLoadingStatus()); 
             }
-            if (generator.platformstatus == 0) { fog.SetActive(false); } else { fog.SetActive(true); }
+            fog.enabled = generator.platformstatus != 0;
         }
         allitems = GameObject.FindGameObjectsWithTag("Item");
         int id;
